@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.0xdefec.rmarketplace.sitemap" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[rMarketplace XML Sitemap]]></packagename>
+		<packageDescription language="en"><![CDATA[Provides a xml sitemap for the rMarketplace.]]></packageDescription>
+		<packageDescription language="de"><![CDATA[Erstellt eine XML Sitemap des rMarketplace für Suchmaschinen.]]></packageDescription>
+		<packageurl><![CDATA[http://www.andoca.de]]></packageurl>
+		<version>1.2.2</version>
+		<plugin>com.woltlab.wcf.data.page</plugin>
+		<isunique>1</isunique>
+		<date>2011-06-23</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Andoca Haustier-WG UG (haftungsbeschränkt)</author>
+		<authorurl>http://www.andoca.de</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.2.1">de.0xdefec.rmarketplace</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+	</instructions>
+	
+	<instructions type="update" fromversion="*">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+	</instructions>
+</package>

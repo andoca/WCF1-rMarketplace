@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<language languagecode="de">
+	<category name="wcf.acp.package">
+		<item name="wcf.acp.package.step.install.SEORewriterRulesPackageInstallationPlugin"><![CDATA[SEO-Konfigurationsinstallation ...]]></item>
+		<item name="wcf.acp.package.step.uninstall.SEORewriterRulesPackageInstallationPlugin"><![CDATA[Deinstallation der SEO-Konfigurationsreste ...]]></item>	
+		<item name="wcf.acp.package.step.update.SEORewriterRulesPackageInstallationPlugin"><![CDATA[SEO-Konfigurationsupdate ...]]></item>	
+	</category>
+</language>

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/options.dtd">
+<data>
+	<import>
+		<categories>
+			<category name="seo.rewrite.rmarketplace">
+				<parent>seo.rewrite</parent>
+			</category>
+		</categories>
+		
+		<options>
+			<option name="rmarketplace_title">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>text</optionType>
+				<showOrder>1</showOrder>
+				<defaultValue>marketplace</defaultValue>
+			</option>
+			<option name="seo_rewrite_market_index">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>boolean</optionType>
+				<showOrder>2</showOrder>
+				<defaultValue>1</defaultValue>
+				<enableOptions>seo_rewrite_market_new_items_index_format,seo_rewrite_market_sorted_index_format,seo_rewrite_market_multiple_index_format,seo_rewrite_market_multiple_sorted_index_format</enableOptions>
+			</option>
+			<option name="seo_rewrite_market_index_format">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>3</showOrder>
+				<defaultValue><![CDATA[{RMARKETPLACE_TITLE}/]]></defaultValue>
+				<selectOptions><![CDATA[{RMARKETPLACE_TITLE}/]]></selectOptions>
+			</option>
+			<option name="seo_rewrite_market_new_items_index_format">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>4</showOrder>
+				<defaultValue><![CDATA[{RMARKETPLACE_TITLE}/new-items.html]]></defaultValue>
+				<selectOptions><![CDATA[{RMARKETPLACE_TITLE}/new-items.html]]></selectOptions>
+			</option>
+			<option name="seo_rewrite_market_sorted_index_format">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>5</showOrder>
+				<defaultValue><![CDATA[{RMARKETPLACE_TITLE}/{TYPE}.html]]></defaultValue>
+				<selectOptions><![CDATA[{RMARKETPLACE_TITLE}/{TYPE}.html]]></selectOptions>
+			</option>
+			<option name="seo_rewrite_market_multiple_index_format">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>6</showOrder>
+				<defaultValue><![CDATA[{RMARKETPLACE_TITLE}/page{PAGE_NO}.html]]></defaultValue>
+				<selectOptions><![CDATA[{RMARKETPLACE_TITLE}/page{PAGE_NO}.html]]></selectOptions>
+			</option>
+			<option name="seo_rewrite_market_multiple_sorted_index_format">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>7</showOrder>
+				<defaultValue><![CDATA[{RMARKETPLACE_TITLE}/{TYPE}/page{PAGE_NO}.html]]></defaultValue>
+				<selectOptions><![CDATA[{RMARKETPLACE_TITLE}/{TYPE}/page{PAGE_NO}.html]]></selectOptions>
+			</option>
+			<option name="seo_rewrite_market_pages">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>boolean</optionType>
+				<showOrder>8</showOrder>
+				<defaultValue>1</defaultValue>
+				<enableOptions>seo_rewrite_market_pages_format,seo_rewrite_market_pages_multiple_format,seo_rewrite_market_pages_sorted_format,seo_rewrite_market_pages_multiple_sorted_format</enableOptions>
+			</option>
+			<option name="seo_rewrite_market_pages_format">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>9</showOrder>
+				<defaultValue><![CDATA[{RMARKETPLACE_TITLE}/{PARENT_CATEGORIES}{CATEGORY_ID}-{CATEGORY_NAME}/]]></defaultValue>
+				<selectOptions><![CDATA[{RMARKETPLACE_TITLE}/{PARENT_CATEGORIES}{CATEGORY_ID}-{CATEGORY_NAME}/]]></selectOptions>
+			</option>
+			<option name="seo_rewrite_market_pages_multiple_format">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>10</showOrder>
+				<defaultValue><![CDATA[{RMARKETPLACE_TITLE}/{PARENT_CATEGORIES}{CATEGORY_ID}-{CATEGORY_NAME}/page{PAGE_NO}.html]]></defaultValue>
+				<selectOptions><![CDATA[{RMARKETPLACE_TITLE}/{PARENT_CATEGORIES}{CATEGORY_ID}-{CATEGORY_NAME}/page{PAGE_NO}.html]]></selectOptions>
+			</option>
+			<option name="seo_rewrite_market_pages_sorted_format">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>11</showOrder>
+				<defaultValue><![CDATA[{RMARKETPLACE_TITLE}/{PARENT_CATEGORIES}{CATEGORY_ID}-{CATEGORY_NAME}/{TYPE}.html]]></defaultValue>
+				<selectOptions><![CDATA[{RMARKETPLACE_TITLE}/{PARENT_CATEGORIES}{CATEGORY_ID}-{CATEGORY_NAME}/{TYPE}.html]]></selectOptions>
+			</option>
+			<option name="seo_rewrite_market_pages_multiple_sorted_format">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>12</showOrder>
+				<defaultValue><![CDATA[{RMARKETPLACE_TITLE}/{PARENT_CATEGORIES}{CATEGORY_ID}-{CATEGORY_NAME}/{TYPE}/page{PAGE_NO}.html]]></defaultValue>
+				<selectOptions><![CDATA[{RMARKETPLACE_TITLE}/{PARENT_CATEGORIES}{CATEGORY_ID}-{CATEGORY_NAME}/{TYPE}/page{PAGE_NO}.html]]></selectOptions>
+			</option>
+			<option name="seo_rewrite_market_parent_categories">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>13</showOrder>
+				<defaultValue><![CDATA[{CATEGORY_ID}-{CATEGORY_NAME}/]]></defaultValue>
+				<selectOptions><![CDATA[{CATEGORY_ID}-{CATEGORY_NAME}/]]></selectOptions>
+			</option>
+			<option name="seo_rewrite_market_items">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>boolean</optionType>
+				<showOrder>14</showOrder>
+				<defaultValue>1</defaultValue>
+				<enableOptions>seo_rewrite_market_item_format</enableOptions>
+			</option>
+			<option name="seo_rewrite_market_item_format">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>15</showOrder>
+				<defaultValue><![CDATA[{RMARKETPLACE_TITLE}/{PARENT_CATEGORIES}{CATEGORY_ID}-{CATEGORY_NAME}/{ITEM_ID}-{ITEM_NAME}.html]]></defaultValue>
+				<selectOptions><![CDATA[{RMARKETPLACE_TITLE}/{PARENT_CATEGORIES}{CATEGORY_ID}-{CATEGORY_NAME}/{ITEM_ID}-{ITEM_NAME}.html]]></selectOptions>
+			</option>
+			<option name="seo_rewrite_market_map">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>boolean</optionType>
+				<showOrder>16</showOrder>
+				<defaultValue>1</defaultValue>
+				<enableOptions>seo_rewrite_market_map_format,seo_rewrite_market_map_overview_format,seo_rewrite_market_map_type_format</enableOptions>
+			</option>
+			<option name="seo_rewrite_market_map_overview_format">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>17</showOrder>
+				<defaultValue><![CDATA[{RMARKETPLACE_TITLE}/map.html]]></defaultValue>
+				<selectOptions><![CDATA[{RMARKETPLACE_TITLE}/map.html]]></selectOptions>
+			</option>
+			<option name="seo_rewrite_market_map_format">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>18</showOrder>
+				<defaultValue><![CDATA[{RMARKETPLACE_TITLE}/{PARENT_CATEGORIES}{CATEGORY_ID}-{CATEGORY_NAME}/map.html]]></defaultValue>
+				<selectOptions><![CDATA[{RMARKETPLACE_TITLE}/{PARENT_CATEGORIES}{CATEGORY_ID}-{CATEGORY_NAME}/map.html]]></selectOptions>
+			</option>
+			<option name="seo_rewrite_market_map_type_format">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>19</showOrder>
+				<defaultValue><![CDATA[{RMARKETPLACE_TITLE}/{PARENT_CATEGORIES}{CATEGORY_ID}-{CATEGORY_NAME}/map/{TYPE}.html]]></defaultValue>
+				<selectOptions><![CDATA[{RMARKETPLACE_TITLE}/{PARENT_CATEGORIES}{CATEGORY_ID}-{CATEGORY_NAME}/map/{TYPE}.html]]></selectOptions>
+			</option>
+			<option name="seo_rewrite_market_widget">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>boolean</optionType>
+				<showOrder>21</showOrder>
+				<defaultValue>1</defaultValue>
+				<enableOptions>seo_rewrite_market_widget_format</enableOptions>
+			</option>
+			<option name="seo_rewrite_market_widget_format">
+				<categoryname>seo.rewrite.rmarketplace</categoryname>
+				<optionType>customselect</optionType>
+				<showOrder>22</showOrder>
+				<defaultValue><![CDATA[{RMARKETPLACE_TITLE}/widget.html]]></defaultValue>
+				<selectOptions><![CDATA[{RMARKETPLACE_TITLE}/widget.html]]></selectOptions>
+			</option>
+		</options>
+	</import>
+</data>

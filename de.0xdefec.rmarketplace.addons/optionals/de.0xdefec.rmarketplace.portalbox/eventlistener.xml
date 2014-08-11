@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE import SYSTEM "DTD/import.dtd">
+<data>
+	<import>		
+		<eventlistener>
+			<eventClassName>RMarketplaceAction</eventClassName>
+			<eventName>execute</eventName>
+			<listenerClassFile>lib/system/event/listener/PortalClearRMarketplaceCacheListener.class.php</listenerClassFile>
+			<environment>user</environment>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>RMarketplaceAddForm</eventClassName>
+			<eventName>save</eventName>
+			<listenerClassFile>lib/system/event/listener/PortalClearRMarketplaceCacheListener.class.php</listenerClassFile>
+			<environment>user</environment>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>RMarketplaceEditForm</eventClassName>
+			<eventName>save</eventName>
+			<listenerClassFile>lib/system/event/listener/PortalClearRMarketplaceCacheListener.class.php</listenerClassFile>
+			<environment>user</environment>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>OptionForm</eventClassName>
+			<eventName>save</eventName>
+			<listenerClassFile>lib/system/event/listener/PortalClearRMarketplaceCacheListener.class.php</listenerClassFile>
+			<environment>admin</environment>
+		</eventlistener>
+	</import>
+</data>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/bbcodes.dtd">
+<data>
+	<import>
+		<bbcode name="mp">
+			<classname>RMarketplaceBBCode</classname>
+			<allowedchildren>none</allowedchildren>
+			<attributes>
+				<attribute name="0">
+					<required>1</required>
+				</attribute>
+			</attributes>
+			<sourcecode>1</sourcecode>
+		</bbcode>
+	</import>
+</data>

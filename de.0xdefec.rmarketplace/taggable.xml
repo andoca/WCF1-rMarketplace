@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/taggable.dtd">
+<data>	
+	<import>
+		<taggable name="de.0xdefec.rmarketplace.mpentry">
+			<classpath>lib/data/rmarketplace/mpEntry/TaggableMpEntry.class.php</classpath>
+		</taggable>
+	</import>
+</data>

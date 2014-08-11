@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<language languagecode="de-informal">
+	<category name="wcf.acp.option">
+		<!-- categories -->
+		<item name="wcf.acp.option.category.seo.rewrite.rmarketplace"><![CDATA[Kleinanzeigenmarkt-Links]]></item>
+		<item name="wcf.acp.option.category.seo.rewrite.rmarketplace.description"><![CDATA[&nbsp;]]></item>
+		
+		<!-- items -->
+		<item name="wcf.acp.option.seo_rewrite_market_index"><![CDATA[Anzeigenauflistungsstartseiten-Links umschreiben]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_index.description"><![CDATA[Aktiviert die Umschreibung der Anzeigenauflistungsstartseite mit den nachfolgenden Link-Formaten.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_new_items_index_format"><![CDATA[Anzeigenstartseiten-Link-Format f&uuml;r neue Eintr&auml;ge]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_new_items_index_format.description"><![CDATA[Bitte geben Sie hier das Format f&uuml;r neue Eintr&auml;ge auf Anzeigenstartseite an. M&ouml;glich Variable: {literal}»{RMARKETPLACE_TITLE}«{/literal}.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_sorted_index_format"><![CDATA[Anzeigenstartseiten-Link-Format f&uuml;r sortierte Eintr&auml;ge]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_sorted_index_format.description"><![CDATA[Bitte geben Sie hier das Format f&uuml;r die sortierte Anzeigenstartseite an. M&ouml;gliche Variablen: {literal}»{RMARKETPLACE_TITLE}« und »{TYPE}«{/literal}.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_multiple_index_format"><![CDATA[Anzeigenstartseiten-Link-Format f&uuml;r multiple Seiten]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_multiple_index_format.description"><![CDATA[Bitte geben Sie hier das Format f&uuml;r die multiple Anzeigenstartseite an. M&ouml;gliche Variablen: {literal}»{RMARKETPLACE_TITLE}« und »{PAGE_NO}«{/literal}.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_multiple_sorted_index_format"><![CDATA[Anzeigenstartseiten-Link-Format f&uuml;r multiple und sortiere Seiten]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_multiple_sorted_index_format.description"><![CDATA[Bitte geben Sie hier das Format f&uuml;r multiple und sortierte Anzeigenstartseiten an. M&ouml;gliche Variablen: {literal}»{RMARKETPLACE_TITLE}«, »{TYPE}« und »{PAGE_NO}«{/literal}.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_pages"><![CDATA[Kategorien-Links umschreiben]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_pages.description"><![CDATA[Aktiviert die Umschreibung der Kategorie-Links mit den nachfolgenden Link-Formaten.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_pages_format"><![CDATA[Kategorien-Link-Format]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_pages_format.description"><![CDATA[Bitte geben Sie hier das Format f&uuml;r die Kategorien-Links an. M&ouml;gliche Variablen: {literal}»{RMARKETPLACE_TITLE}«, »{PARENT_CATEGORIES}«, »{CATEGORY_NAME}« und »{CATEGORY_ID}«{/literal}.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_pages_multiple_format"><![CDATA[Kategorien-Link-Format f&uuml;r multiple Seiten]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_pages_multiple_format.description"><![CDATA[Bitte geben Sie hier das Format f&uuml;r die multiplen Kategorien-Links an. M&ouml;gliche Variablen: {literal}»{RMARKETPLACE_TITLE}«, »{PARENT_CATEGORIES}«, »{CATEGORY_NAME}«, »{CATEGORY_ID}« und »{PAGE_NO}«{/literal}.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_pages_sorted_format"><![CDATA[Kategorien-Link-Format f&uuml;r sortierte Seiten]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_pages_sorted_format.description"><![CDATA[Bitte geben Sie hier das Format f&uuml;r die sortierten Kategorien-Links an. M&ouml;gliche Variablen: {literal}»{RMARKETPLACE_TITLE}«, »{PARENT_CATEGORIES}«, »{CATEGORY_NAME}«, »{CATEGORY_ID}« und »{TYPE}«{/literal}.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_pages_multiple_sorted_format"><![CDATA[Kategorien-Link-Format f&uuml;r multiple und sortierte Seiten]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_pages_multiple_sorted_format.description"><![CDATA[Bitte geben Sie hier das Format f&uuml;r die mupltiplen und sortierten Kategorien-Links an. M&ouml;gliche Variablen: {literal}»{RMARKETPLACE_TITLE}«, »{PARENT_CATEGORIES}«, »{CATEGORY_NAME}«, »{CATEGORY_ID}«, »{TYPE}« und »{PAGE_NO}«{/literal}.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_parent_categories"><![CDATA[Link-Format f&uuml;r &uuml;bergeordnete Kategorien]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_parent_categories.description"><![CDATA[Bitte geben Sie hier das Format f&uuml;r &uuml;bergeordnete Kategorien an. M&ouml;gliche Variablen: {literal}»{RMARKETPLACE_TITLE}«, »{CATEGORY_NAME}«, »{CATEGORY_ID}«{/literal}.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_items"><![CDATA[Anzeigen-Links umschreiben]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_items.description"><![CDATA[Aktiviert die Umschreibung der Anzeigen-Links mit dem nachfolgendem Format.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_item_format"><![CDATA[Anzeigen-Link-Format]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_item_format.description"><![CDATA[Bitte geben Sie hier das Format f&uuml;r die Umschreibung der Eintrag-Links an. M&ouml;gliche Variablen: {literal}»{RMARKETPLACE_TITLE}«, »{PARENT_CATEGORIES}«, »{CATEGORY_NAME}«, »{CATEGORY_ID}«, »{ITEM_NAME}« und »{ITEM_ID}«{/literal}.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_map"><![CDATA[Anzeigenkarten-Links umschreiben]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_map.description"><![CDATA[Aktiviert die Umschreibung der Anzeigenkarten-Links mit den nachfolgenden Formaten.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_map_format"><![CDATA[Anzeigenkarten-Link-Format f&uuml;r kategoriesierte Karte]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_map_format.description"><![CDATA[Bitte geben Sie hier das Format f&uuml;r die Links der kategoriesierten Karte an. M&ouml;gliche Variablen: {literal}»{RMARKETPLACE_TITLE}«, »{PARENT_CATEGORIES}«, »{CATEGORY_NAME}« und »{CATEGORY_ID}«{/literal}.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_map_overview_format"><![CDATA[Anzeigenkarten-Link-Format]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_map_overview_format.description"><![CDATA[Geben Sie hier das Link Format f&uuml;r Karten-Links an. M&ouml;glich Variable: {literal}»{RMARKETPLACE_TITLE}«{/literal}.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_map_type_format"><![CDATA[Anzeigenkarten-Link-Format f&uuml;r sortiere Karte]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_map_type_format.description"><![CDATA[Bitte geben Sie hier das Format f&uuml; Links der sortierten Karte an. M&ouml;gliche Variablen: {literal}»{RMARKETPLACE_TITLE}« und »{TYPE}«{/literal}.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_widget"><![CDATA[Widget-Links umschreiben]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_widget.description"><![CDATA[Aktiviert die Umschreibung der Widget-Links mit dem nachfolgendem Format.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_widget_format"><![CDATA[Widget-Link-Format]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_widget_format.description"><![CDATA[Bitte geben Sie hier das Format f&uuml;r den Widget-Generator an. M&ouml;glich Variable: {literal}»{RMARKETPLACE_TITLE}«{/literal}.]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_index_format"><![CDATA[Anzeigenstartseiten-Link-Format]]></item>
+		<item name="wcf.acp.option.seo_rewrite_market_index_format.description"><![CDATA[Bitte geben Sie hier das Format f&uuml;r die Anzeigenstartseite an. M&ouml;glich Variable: {literal}»{RMARKETPLACE_TITLE}«{/literal}.]]></item>
+		<item name="wcf.acp.option.rmarketplace_title"><![CDATA[Name des Marktplatzes]]></item>
+		<item name="wcf.acp.option.rmarketplace_title.description"><![CDATA[Dies ist der Inhalt der Variable {literal}»{RMARKETPLACE_TITLE}«{/literal}.]]></item>
+	</category>
+</language>

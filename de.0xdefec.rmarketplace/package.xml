@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.0xdefec.rmarketplace" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[rMarketplace]]></packagename>
+		<packageDescription><![CDATA[Provides a basic but extendable market to let your users offer and search items on your site.]]></packageDescription>
+		<packageDescription language="en"><![CDATA[Provides a basic but extendable market to let your users offer and search items on your site.]]></packageDescription>
+		<packageDescription language="de"><![CDATA[Flexibler und erweiterbarer Marktplatz auf dem Ihre Benutzer Gesuche und Angebote schreiben können.]]></packageDescription>
+		<packageDescription language="de-informal"><![CDATA[Flexibler und erweiterbarer Marktplatz auf dem deine Benutzer Gesuche und Angebote schreiben können.]]></packageDescription>
+		<packageurl><![CDATA[http://www.andoca.de]]></packageurl>
+		<version>1.3.0 pl 1</version>
+		<plugin>com.woltlab.wcf.data.cronjobs</plugin>
+		<isunique>1</isunique>
+		<date>2013-04-07</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Andoca Haustier-WG UG (haftungsbeschränkt)</author>
+		<authorurl>http://www.andoca.de</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.1.0 RC 3">com.woltlab.wcf</requiredpackage>
+		
+		<requiredpackage>com.woltlab.wcf.data.message</requiredpackage>
+		<requiredpackage>com.woltlab.wcf.data.message.bbcode</requiredpackage>
+		<requiredpackage>com.woltlab.wcf.data.message.attachment</requiredpackage>
+		<requiredpackage>com.woltlab.wcf.data.message.censorship</requiredpackage>
+		<requiredpackage>com.woltlab.wcf.data.help</requiredpackage>
+		<requiredpackage>com.woltlab.wcf.data.page</requiredpackage>
+		<requiredpackage>com.woltlab.wcf.data.image</requiredpackage>
+		
+		<requiredpackage>com.woltlab.wcf.form.message</requiredpackage>
+		<requiredpackage>com.woltlab.wcf.form.message.wysiwyg</requiredpackage>
+		
+		<requiredpackage>com.woltlab.wcf.imageViewer</requiredpackage>
+		<requiredpackage>com.woltlab.wcf.data.page</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<files>files.tar</files>
+		<sql>install.sql</sql>
+		<templates>templates.tar</templates>
+		<attachmentcontainertype>act.xml</attachmentcontainertype>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<pagemenu>pagemenu.xml</pagemenu>
+		<options>options.xml</options>
+		<taggable>taggable.xml</taggable>
+		<pagelocation>pagelocation.xml</pagelocation>
+		<acptemplates>acptemplates.tar</acptemplates>
+		<acpmenu>acpmenu.xml</acpmenu>
+		<cronjobs>cronjobs.xml</cronjobs>
+		<eventlistener>eventlistener.xml</eventlistener>
+		<useroptions>useroptions.xml</useroptions>
+		<searchablemessagetypes>smt.xml</searchablemessagetypes>
+		<bbcodes>bbcodes.xml</bbcodes>
+		<stattype>stattype.xml</stattype>
+		<warningobjecttype>warningobjecttype.xml</warningobjecttype>
+		<feedsource>feedsource.xml</feedsource>
+		<script>acp/rMarketplaceInstall.php</script>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.2.4">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<options>options.xml</options>
+		<script>acp/rMarketplaceUpdateTo1.3.0.php</script>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.2.5">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<options>options.xml</options>
+		<script>acp/rMarketplaceUpdateTo1.3.0.php</script>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.2.5 pl 1">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<options>options.xml</options>
+		<script>acp/rMarketplaceUpdateTo1.3.0.php</script>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.2.6">
+		<files>files.tar</files>
+		<options>options.xml</options>
+		<templates>templates.tar</templates>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<script>acp/rMarketplaceUpdateTo1.3.0.php</script>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.2.7">
+		<files>files.tar</files>
+		<options>options.xml</options>
+		<templates>templates.tar</templates>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<script>acp/rMarketplaceUpdateTo1.3.0.php</script>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.2.8">
+		<files>files.tar</files>
+		<options>options.xml</options>
+		<templates>templates.tar</templates>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<script>acp/rMarketplaceUpdateTo1.3.0.php</script>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.3.0 beta 1">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<script>acp/rMarketplaceUpdateTo1.3.0.php</script>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.3.0 beta 2">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<script>acp/rMarketplaceUpdateTo1.3.0.php</script>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.3.0">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+	</instructions>
+</package>

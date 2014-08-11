@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/stat-type.xsd">
+	<import>
+		<stattype name="rmentries">
+			<tablename>wcf1_rmarketplace_entries</tablename>
+			<datefieldname>time</datefieldname>
+			<userfieldname>userID</userfieldname>
+		</stattype>
+	</import>
+</data>

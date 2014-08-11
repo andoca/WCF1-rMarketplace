@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTD/options.dtd">
+<data>
+	<import>
+		<categories>
+			<category name="de.0xdefec.rmarketplace.feed">
+				<parent>de.0xdefec.rmarketplace</parent>
+				<showorder>600</showorder>
+			</category>
+		</categories>
+		<options>
+			<option name="MP_FEED_ACTIVE">
+				<categoryname>de.0xdefec.rmarketplace.feed</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<enableoptions>MP_FEED_ITEMS</enableoptions>
+			</option>
+			<option name="MP_FEED_ITEMS">
+				<categoryname>de.0xdefec.rmarketplace.feed</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>20</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

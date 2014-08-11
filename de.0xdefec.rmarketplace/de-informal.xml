@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de-informal">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace"><![CDATA[Marktplatz]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.description"><![CDATA[Einstellungen f&uuml;r den Marktplatz]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.config"><![CDATA[Einstellungen]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.config.description"><![CDATA[Allgemeine Einstellungen]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.config.entry"><![CDATA[Einträge]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.config.entry.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.attachments"><![CDATA[Dateianhänge]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.attachments.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.countries"><![CDATA[Länder]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.countries.description"><![CDATA[Verfügbare Länder im Marktplatz]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.gmaps"><![CDATA[Karte]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.gmaps.description"><![CDATA[Einstellungen für die verwendeten Karten]]></item>
+		<item name="wcf.acp.option.MODULE_RMARKETPLACE"><![CDATA[Marktplatz]]></item>
+		<item name="wcf.acp.option.MODULE_RMARKETPLACE.description"><![CDATA[Aktiviert den rMarketplace]]></item>
+		<item name="wcf.acp.option.MP_CATEGORIES"><![CDATA[Kategorien]]></item>
+		<item name="wcf.acp.option.MP_CATEGORIES.description"><![CDATA[Format: id;Name der Kategorie<br />Jede Kategorie in eine neue Zeile. ID muss eindeutig sein (Zahl). Die Reihenfolge der Einträge hier bestimmt die Sortierung, nicht die ID!]]></item>
+		
+		<item name="wcf.acp.option.MP_USE_CAPTCHA"><![CDATA[Captchaeingabe]]></item>
+		<item name="wcf.acp.option.MP_USE_CAPTCHA.description"><![CDATA[Beim Erstellen von Einträgen auf dem Marktplatz]]></item>
+		<item name="wcf.acp.option.MP_SPIDER_INDEX"><![CDATA[Indizierung durch Suchmaschinen erlauben]]></item>
+		<item name="wcf.acp.option.MP_SPIDER_INDEX.description"><![CDATA[Deaktiviere diese Option, wenn du verhindern willst, dass die Seiten des rMarketplace von Suchmaschinen indiziert werden.]]></item>
+		
+		<item name="wcf.acp.option.RM_ENABLE_MAPS"><![CDATA[Geo-Lokalisierung von Einträgen aktivieren]]></item>
+		<item name="wcf.acp.option.RM_ENABLE_MAPS.description"><![CDATA[Aktiviere diese Option, wenn beim Erstellen eines Eintrags PLZ/Land angegeben werden soll und die Einträge auf Karten dargestellt werden sollen.]]></item>
+		<item name="wcf.acp.option.RM_ENABLE_TAGS"><![CDATA[Tagging von Einträgen aktivieren]]></item>
+		<item name="wcf.acp.option.RM_ENABLE_TAGS.description"><![CDATA[Benutzer können Einträgen Tags zuweisen, die in Tag-Wolken zusammengefasst werden.]]></item>
+		<item name="wcf.acp.option.RM_INDEX_ENABLE_TAGS"><![CDATA[Tag-Wolke anzeigen]]></item>
+		<item name="wcf.acp.option.RM_INDEX_ENABLE_TAGS.description"><![CDATA[Auf der Startseite werden die wichtigsten Tags (Schlagwörter) angezeigt, die von den Benutzern auf dieser Seite verwendet wurden.]]></item>
+		<item name="wcf.acp.option.MP_LIFETIME"><![CDATA[Einträge endgültig Löschen]]></item>
+		<item name="wcf.acp.option.MP_LIFETIME.description"><![CDATA[Anzahl an Tagen die Einträge im Marktplatz verfügbar bleiben. Danach werden sie unwiderruflich gelöscht. Setze den Wert auf 0 um diese Funktion zu deaktiveren.]]></item>
+		<item name="wcf.acp.option.MP_SENDERID"><![CDATA[Absender von Benachrichtigungen]]></item>
+		<item name="wcf.acp.option.MP_SENDERID.description"><![CDATA[BenutzerID des Users, der als Absender von Benachrichtigungen via PN (z.B. über ablaufende Einträge) verwendet werden soll.]]></item>
+		<item name="wcf.acp.option.MP_ENTRY_OLD_TIME"><![CDATA[Einträge Gültigkeitsdauer]]></item>
+		<item name="wcf.acp.option.MP_ENTRY_OLD_TIME.description"><![CDATA[Zeit in Tagen, die ein Eintrag aktuell sein soll - danach wird dieser als veraltet markiert. Setze den Wert auf 0 um diese Funktion zu deaktiveren.]]></item>
+		<item name="wcf.acp.option.MP_ENTRY_INFO_TIME"><![CDATA[Autorinformation]]></item>
+		<item name="wcf.acp.option.MP_ENTRY_INFO_TIME.description"><![CDATA[Zeit in Tagen, nach denen der Autor informiert werden soll, dass sein Eintrag bald veraltet ist. Setze den Wert auf 0 um diese Funktion zu deaktiveren.]]></item>
+		<item name="wcf.acp.option.MP_ITEMSPP"><![CDATA[Einträge pro Seite]]></item>
+		<item name="wcf.acp.option.MP_ITEMSPP.description"><![CDATA[Anzahl an Einträgen die auf einer Seite angezeigt werden sollen]]></item>
+		<item name="wcf.acp.option.MP_MIN_CHAR_LENGTH"><![CDATA[Minimale Zeichenanzahl]]></item>
+		<item name="wcf.acp.option.MP_MIN_CHAR_LENGTH.description"><![CDATA[Minimale Anzahl an Zeichen in einem Eintrag]]></item>
+		<item name="wcf.acp.option.MP_MIN_WORD_COUNT"><![CDATA[Minimale Wortzahl]]></item>
+		<item name="wcf.acp.option.MP_MIN_WORD_COUNT.description"><![CDATA[Minimale Anzahl an Worten in einem Eintrag]]></item>
+		<item name="wcf.acp.option.MP_PRICE_SETTINGS_SEARCH"><![CDATA[Preisangabe bei Gesuchen]]></item>
+		<item name="wcf.acp.option.MP_PRICE_SETTINGS_SEARCH.description"><![CDATA[Stellen Sie ein, in welcher Form ein Preis bei Gesuchen angegeben werden muss.]]></item>
+		<item name="wcf.acp.option.MP_PRICE_SETTINGS_OFFER"><![CDATA[Preisangabe bei Angeboten]]></item>
+		<item name="wcf.acp.option.MP_PRICE_SETTINGS_OFFER.description"><![CDATA[Stellen Sie ein, in welcher Form ein Preis bei Angeboten angegeben werden muss.]]></item>
+		<item name="wcf.acp.option.MP_ATTACHMENTS_SEARCH"><![CDATA[Gesuche verpflichtend mit Dateianhang]]></item>
+		<item name="wcf.acp.option.MP_ATTACHMENTS_SEARCH.description"><![CDATA[Aktiviere diese Option, um bei Gesuchen verpflichtend einen Dateianhang zu fordern.]]></item>
+		<item name="wcf.acp.option.MP_ATTACHMENTS_OFFER"><![CDATA[Angebote verpflichtend mit Dateianhang]]></item>
+		<item name="wcf.acp.option.MP_ATTACHMENTS_OFFER.description"><![CDATA[Aktiviere diese Option, um bei Angeboten verpflichtend einen Dateianhang zu fordern.]]></item>
+		<item name="wcf.acp.option.USERMENU_SHOW_MARKETPLACE_ENTRIES"><![CDATA[Neue Einträge im Benutzermenü anzeigen]]></item>
+		<item name="wcf.acp.option.USERMENU_SHOW_MARKETPLACE_ENTRIES.description"><![CDATA[Aktiviere diese Option, wenn neue Einträge im Benutzermenü (neben der Ansicht von z.B. neuen PNs) angezeigt werden sollen.]]></item>	
+		<item name="wcf.acp.option.USERMENU_SHOW_MARKETPLACE_ENTRIES_ALSO_WHEN_NOT_NEW"><![CDATA[Im Benutzermenü auch anzeigen ohne neue Einträge]]></item>
+		<item name="wcf.acp.option.USERMENU_SHOW_MARKETPLACE_ENTRIES_ALSO_WHEN_NOT_NEW.description"><![CDATA[Aktiviere  diese Option, wenn der Link zum rMarketplace im Benutzermenü auch angezeigt werden soll, wenn es keine neuen Einträge gibt.]]></item>
+		
+		<item name="wcf.acp.option.RM_ATTACHMENT_THUMBNAIL_WIDTH"><![CDATA[Breite der Vorschaubilder]]></item>
+		<item name="wcf.acp.option.RM_ATTACHMENT_THUMBNAIL_WIDTH.description"><![CDATA[Sollte ein hochgeladenes Bild die hier angegebene Breite überschreiten, wird automatisch ein verkleinertes Vorschaubild erzeugt.]]></item>
+		<item name="wcf.acp.option.RM_ATTACHMENT_THUMBNAIL_HEIGHT"><![CDATA[Höhe der Vorschaubilder]]></item>
+		<item name="wcf.acp.option.RM_ATTACHMENT_THUMBNAIL_HEIGHT.description"><![CDATA[Sollte ein hochgeladenes Bild die hier angegebene Höhe überschreiten, wird automatisch ein verkleinertes Vorschaubild erzeugt.]]></item>
+		<item name="wcf.acp.option.RM_ATTACHMENT_THUMBNAIL_ADD_SOURCE_INFO"><![CDATA[Bildinformationen in Vorschaubildern anzeigen]]></item>
+		<item name="wcf.acp.option.RM_ATTACHMENT_THUMBNAIL_ADD_SOURCE_INFO.description"><![CDATA[Beim Erzeugen von Vorschaubildern werden zusätzliche Dateiinformationen, wie z.B. Abmessungen oder Dateigröße, in Form einer Infozeile in die Grafiken eingezeichnet.]]></item>
+		
+		
+		<item name="wcf.acp.option.MP_COUNTRIES"><![CDATA[Länderliste]]></item>
+		<item name="wcf.acp.option.MP_COUNTRIES.description"><![CDATA[Liste der Länder die zur Auswahl stehen sollen. Zeilen mit # an erster Stelle werden ignoriert. Format: XX;Landesnamen wobei XX für den ISO Ländercode (2 Zeichen) steht und eindeutig sein muss. Das erste Land ist Standardmäßig ausgewählt.]]></item>
+		
+		<item name="wcf.acp.option.MP_GMAP_HIDE_OLD"><![CDATA[Alte Einträge ausblenden]]></item>
+		<item name="wcf.acp.option.MP_GMAP_HIDE_OLD.description"><![CDATA[Blendet alte Einträge aus der Karte aus.]]></item>
+		<item name="wcf.acp.option.MP_GMAP_KEY"><![CDATA[Google API Key]]></item>
+		<item name="wcf.acp.option.MP_GMAP_KEY.description"><![CDATA[<strong>Nur erforderlich, wenn Sie noch keinen Key in den "Google Maps" Einstellungen des WCF angegeben haben!</strong>Der Google API Key für die vom Marktplatz verwendete URL. Ein Key kann kostenlos hier generiert werden: <a href="http://code.google.com/intl/de/apis/ajaxsearch/signup.html">Google API Key Signup</a>. Sie brauchen für jede von Ihnen verwendete Domain einen Key! In diesem Fall müssen die Keys im Format "www.domain.tld:google_api_key" (ohne http://) eingegeben werden - ein Domain/Key Paar pro Zeile.]]></item>
+		<item name="wcf.acp.option.MP_GMAP_START_SET"><![CDATA[Startpunkt der Karte festlegen]]></item>
+		<item name="wcf.acp.option.MP_GMAP_START_SET.description"><![CDATA[Der Startpunkt der Karte wird normalerweise automatisch auf den Aufenthaltort des Benutzers gelegt (ermittelt über die IP Adresse). Ist dies nicht gewünscht, kann hier ein Punkt angegeben werden.]]></item>
+		<item name="wcf.acp.option.MP_GMAP_START_LAT"><![CDATA[Startpunkt Latitude]]></item>
+		<item name="wcf.acp.option.MP_GMAP_START_LAT.description"><![CDATA[Geographische Breite des Startpunkts der Karte wenn dieser nicht über die IP-Adresse bestimmt werden kann]]></item>
+		<item name="wcf.acp.option.MP_GMAP_START_LNG"><![CDATA[Startpunkt Longitude]]></item>
+		<item name="wcf.acp.option.MP_GMAP_START_LNG.description"><![CDATA[Geographische Länge des Startpunkts der Karte wenn dieser nicht über die IP-Adresse bestimmt werden kann]]></item>
+		<item name="wcf.acp.option.MP_GMAP_START_ZOOM"><![CDATA[Zoomlevel]]></item>
+		<item name="wcf.acp.option.MP_GMAP_START_ZOOM.description"><![CDATA[Zoomlevel (1-20) mit dem die kleinen Karten angezeigt werden sollen.]]></item>
+		<item name="wcf.acp.option.MP_GMAP_TYPE"><![CDATA[Kartentyp]]></item>
+		<item name="wcf.acp.option.MP_GMAP_TYPE.description"><![CDATA[Art der Karte die angezeigt werden soll.]]></item>
+	</category>
+	
+	<category name="wcf.acp.stats">
+		<item name="wcf.acp.stats.type.rmentries"><![CDATA[Marktplatzeinträge]]></item>
+	</category>
+	
+	<category name="wcf.bbcode">
+		<item name="wcf.bbcode.mp.title"><![CDATA[Marktplatzeintrag]]></item>
+	</category>
+	
+	<category name="wcf.usersOnline">
+		<item name="wcf.usersOnline.location.rMarketplace"><![CDATA[<a href="index.php?page=RMarketplace">Marktplatz Startseite</a>]]></item>
+		<item name="wcf.usersOnline.location.rMarketplace.add"><![CDATA[<a href="index.php?form=RMarketplaceAdd">Neuen Marktplatz-Eintrag erstellen</a>]]></item>
+		<item name="wcf.usersOnline.location.rMarketplace.edit"><![CDATA[Marktplatz Eintrag bearbeiten]]></item>
+		<item name="wcf.usersOnline.location.rMarketplace.reply"><![CDATA[Nachricht auf Marktplatz-Eintrag schreiben]]></item>
+		<item name="wcf.usersOnline.location.rMarketplace.category"><![CDATA[Marktplatz: &raquo;{$category}&laquo;]]></item>
+		<item name="wcf.usersOnline.location.rMarketplace.entry"><![CDATA[Marktplatz-Eintrag: &raquo;{$entry}&laquo;]]></item>
+	</category>
+	<category name="wcf.attachment">
+		<item name="wcf.attachment.containerType.rmentry"><![CDATA[Marktplatz Eintrag]]></item>
+	</category>
+	<category name="wcf.tagging">
+		<item name="wcf.tagging.taggable.de.0xdefec.rmarketplace.mpentry"><![CDATA[Marktplatz Einträge]]></item>
+		<item name="wcf.tagging.taggable.all.de.0xdefec.rmarketplace.mpentry"><![CDATA[Alle Marktplatz Einträge]]></item>
+	</category>
+	<category name="wcf.header.menu">
+		<item name="wcf.header.menu.de.0xdefec.rmarketplace.header.menu"><![CDATA[Marktplatz]]></item>
+	</category>
+	<category name="de.0xdefec.rmarketplace">
+		<item name="de.0xdefec.rmarketplace.copyright"><![CDATA[<!-- DO NOT REMOVE THIS NOTICE unless you have permission to do so -->
+	<div style="clear: both; text-align: right; font-size: 90%" id="rmCopyright">
+		<img src="{icon}rMarketplaceS.png{/icon}" alt="rMarketplace Kleinanzeigen" /> <a href="http://www.andoca.de/rmarketplace/">Kleinanzeigen-Software rMarketplace</a> von <a href="http://www.andoca.de/">andoca.de</a><!-- with super ninja powers -->
+	</div>
+<!-- Copyright notice end -->]]></item>
+		<item name="de.0xdefec.rmarketplace.title"><![CDATA[Marktplatz]]></item>
+		<item name="de.0xdefec.rmarketplace.subheadline"><![CDATA[{if $category == null}
+									{if $type == null}
+										Angebote und Gesuche
+									{elseif $type == 'offer'}
+										Angebote
+									{elseif $type == 'search'}
+										Gesuche
+									{/if}
+									im Marktplatz <span>({$totalEntries})</span>
+								{else}
+									{if $type == null}
+										Angebote und Gesuche
+									{elseif $type == 'offer'}
+										Angebote
+									{elseif $type == 'search'}
+										Gesuche
+									{/if}
+									aus der Kategorie &raquo;{lang}{$category->catName}{/lang}&laquo; <span>({$category->getItemsCount()})</span>
+								{/if}]]></item>
+		<item name="de.0xdefec.rmarketplace.welcome"><![CDATA[Willkommen auf dem Marktplatz!]]></item>
+		<item name="de.0xdefec.rmarketplace.new"><![CDATA[Neue Einträge]]></item>
+		<item name="de.0xdefec.rmarketplace.new.description"><![CDATA[Hier siehst du neue Einträge seit deinem letzten Besuch auf dem Marktplatz.]]></item>
+		<item name="de.0xdefec.rmarketplace.moderation"><![CDATA[Moderation]]></item>
+		<item name="de.0xdefec.rmarketplace.moderation.description"><![CDATA[Hier findest du eine Liste aller Einträge die auf Freischaltung warten.]]></item>
+		<item name="de.0xdefec.rmarketplace.notification.title"><![CDATA[Folgende Einträge warten auf Freischaltung im Marktplatz:]]></item>
+		<item name="de.0xdefec.rmarketplace.activeEntries"><![CDATA[Einträge]]></item>
+		<item name="de.0xdefec.rmarketplace.categories"><![CDATA[Kategorien]]></item>
+		<item name="de.0xdefec.rmarketplace.search.query"><![CDATA[Marktplatz durchsuchen]]></item>
+		<item name="de.0xdefec.rmarketplace.permissionDenied"><![CDATA[Du hast nicht die erforderlichen Berechtigungen, um diesen Eintrag aus dem Marktplatz aufrufen zu können!]]></item>
+		<item name="de.0xdefec.rmarketplace.search"><![CDATA[Suche]]></item>
+		<item name="de.0xdefec.rmarketplace.offer"><![CDATA[Biete]]></item>
+		<item name="de.0xdefec.rmarketplace.empty"><![CDATA[Derzeit keine Einträge verfügbar]]></item>
+		<item name="de.0xdefec.rmarketplace.from"><![CDATA[von]]></item>
+		<item name="de.0xdefec.rmarketplace.in"><![CDATA[in]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.date"><![CDATA[{@$entry->time|time}]]></item>
+		<item name="de.0xdefec.rmarketplace.newEntry"><![CDATA[Eintrag erstellen]]></item>
+		<item name="de.0xdefec.rmarketplace.markAllRead"><![CDATA[Alle Einträge als gelesen markieren]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.isDisabled"><![CDATA[Dieser Eintrag ist derzeit nur für dich sichtbar und muss durch eine/n Moderator/in freigeschaltet werden.]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.isOld"><![CDATA[Dieser Eintrag ist älter als {MP_ENTRY_OLD_TIME} Tag{if MP_ENTRY_OLD_TIME > 1}e{/if} und wahrscheinlich nicht mehr aktuell!]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.isNotActive"><![CDATA[Dieser Eintrag wurde als erledigt markiert.]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.data"><![CDATA[Allgemeine Angaben]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.validTo"><![CDATA[Gültig bis]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.pushed"><![CDATA[Erneuert]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.created"><![CDATA[Erstellt]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.text"><![CDATA[Eintragstext]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.text.error.tooShort"><![CDATA[Der Eintragstext ist zu kurz!]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.subject"><![CDATA[Titel]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.type"><![CDATA[]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.meta"><![CDATA[Informationen]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.location"><![CDATA[Ort]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.clicks"><![CDATA[Zugriff{if $entry->clicks != 1}e{/if}]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.type.searching"><![CDATA[Ich suche]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.type.offering"><![CDATA[Ich biete]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.category"><![CDATA[Kategorie]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.country"><![CDATA[Land]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.zipcode"><![CDATA[Postleitzahl]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.price"><![CDATA[Preisvorstellungen]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.attachmentMissing"><![CDATA[Du musst zumindest einen Dateianhang (z.B. ein Bild) hinzufügen!]]></item>
+		<item name="de.0xdefec.rmarketplace.contact"><![CDATA[Kontaktmöglichkeiten]]></item>
+		<item name="de.0xdefec.rmarketplace.contact.pm"><![CDATA[Private Nachricht schreiben]]></item>
+		<item name="de.0xdefec.rmarketplace.contact.email"><![CDATA[E-Mail schreiben]]></item>
+		<item name="de.0xdefec.rmarketplace.askDelete"><![CDATA[Soll der Eintrag wirklich gelöscht werden?]]></item>
+		<item name="de.0xdefec.rmarketplace.delete"><![CDATA[Löschen]]></item>
+		<item name="de.0xdefec.rmarketplace.edit"><![CDATA[Bearbeiten]]></item>
+		<item name="de.0xdefec.rmarketplace.disable"><![CDATA[Sperren]]></item>
+		<item name="de.0xdefec.rmarketplace.enable"><![CDATA[Freischalten]]></item>
+		<item name="de.0xdefec.rmarketplace.activate"><![CDATA[Aktivieren]]></item>
+		<item name="de.0xdefec.rmarketplace.deactivate"><![CDATA[Erledigt]]></item>
+		<item name="de.0xdefec.rmarketplace.author"><![CDATA[Eintrag von]]></item>
+		<item name="de.0xdefec.rmarketplace.spread"><![CDATA[Weitersagen]]></item>
+		<item name="de.0xdefec.rmarketplace.spread.link"><![CDATA[Verlinken]]></item>
+		<item name="de.0xdefec.rmarketplace.spread.embed"><![CDATA[Einbetten (benötigt BBCode-Unterstützung)]]></item>
+		<item name="de.0xdefec.rmarketplace.quickJump.title"><![CDATA[Kategorie auswählen]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.editNote"><![CDATA[Dieser Eintrag wurde bereits {#$entry->editCount} mal editiert, zuletzt von &raquo;{$entry->editorName}&laquo; ({@$entry->lastEditTime|shorttime}).]]></item>
+		<item name="de.0xdefec.rmarketplace.pnNew.subject"><![CDATA[Nachricht zu deinem Marktplatzeintrag: ]]></item>
+		<item name="de.0xdefec.rmarketplace.markerPositionApproximate"><![CDATA[Position nur ungefähr!]]></item>
+		<item name="de.0xdefec.rmarketplace.filter.search"><![CDATA[Nur Gesuche]]></item>
+		<item name="de.0xdefec.rmarketplace.filter.offer"><![CDATA[Nur Angebote]]></item>
+		<item name="de.0xdefec.rmarketplace.filter"><![CDATA[Filter{if $type !== null} (<a href="index.php?page=RMarketplace&amp;cat={$categoryID}">alle anzeigen</a>){/if}]]></item>
+		<item name="de.0xdefec.rmarketplace.guestInfo"><![CDATA[Du erstellst diesen Eintrag als Gast. Bitte beachte, dass du Kontaktinformationen (z.B. Telefonnummer, E-Mailadresse, Postanschrift, ...) im Eintragstext zu hinterlassen, da andere Benutzer sonst keinen Kontakt mit dir aufnehmen können. Als <a href="index.php?page=Register{SID_ARG_2ND}">registrierter</a> Benutzer hast du die Möglichkeit Kontaktinformationen für den Marktplatz in deinem Profil anzugeben, welche dann automatisch bei deinen Einträgen angezeigt werden.]]></item>
+		<item name="de.0xdefec.rmarketplace.entrysaved"><![CDATA[Dein Eintrag wurde gespeichert und wird <strong>nach erfolgter Prüfung freigeschaltet</strong> - erst dann ist er für andere Benutzer sichtbar.]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.isCommentable"><![CDATA[Kommentare erlauben]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.isCommentable.description"><![CDATA[Aktiviere diese Option, wenn du anderen ermöglichen willst, deinen Eintrag zu kommentieren.]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.comment.add"><![CDATA[Kommentar hinzufügen]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.comments"><![CDATA[Kommentare]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.comment"><![CDATA[Kommentar]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.comment.by"><![CDATA[Von]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.comment.delete.sure"><![CDATA[Bist du sicher, dass du diesen Kommentare endgültig löschen willst?]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.comment.edit"><![CDATA[Kommentar bearbeiten]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.comment.delete"><![CDATA[Kommentar löschen]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.comment.error.tooLong"><![CDATA[Der Kommentar ist zu lange!]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.comment.permalink"><![CDATA[Link zu diesem Kommentar]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.lastPushed"><![CDATA[Erneuert: {@$entry->time|time}; Erstellt: {@$entry->insertTime|time}]]></item>
+		<item name="de.0xdefec.rmarketplace.push"><![CDATA[Erneuern]]></item>
+
+		<item name="de.0xdefec.rmarketplace.newCommentPm.subject"><![CDATA[Kommentar von {$username} zu deinem Marktplatzeintrag]]></item>
+		<item name="de.0xdefec.rmarketplace.newCommentPm.text"><![CDATA[Hallo!
+
+Ich habe soeben einen Kommentar zu deinem Eintrag auf dem Marktplatz erstellt:
+
+[mp]{$entryID}[/mp]
+
+xx Diese Nachricht wurde vom System automatisch generiert! xx]]></item>	
+
+		<item name="de.0xdefec.rmarketplace.expiringEntry.canPush.subject"><![CDATA[Dein Marktplatzeintrag läuft in Kürze ab!]]></item>
+		<item name="de.0xdefec.rmarketplace.expiringEntry.canPush.text"><![CDATA[Hallo!
+
+Dein Marktplatzeintrag läuft am {$expirationDate} ab und wird danach als veraltet markiert. Sollte dein Eintrag noch aktuell sein, kannst du ihn mit einem Klick erneut einstellen. Ansonsten würden wir dich bitten, deinen Eintrag als erledigt zu markieren - beides kannst du unkompliziert am Ende des Eintragstextes machen.
+
+[mp]{$entryID}[/mp]
+
+xx Diese Nachricht wurde vom System automatisch generiert! xx]]></item>
+		<item name="de.0xdefec.rmarketplace.expiringEntry.noPush.subject"><![CDATA[Ist dein Marktplatzeintrag noch aktuell?]]></item>
+		<item name="de.0xdefec.rmarketplace.expiringEntry.noPush.text"><![CDATA[Hallo!
+
+Bitte prüfe ob dein Marktplatzeintrag noch aktuell ist und markieren ihn als erledigt, wenn er es nicht mehr ist. So verhinderst du unnötige Anfragen von anderen Besuchern und hilfst mit, den Marktplatz aktuell zu halten. Danke!
+
+[mp]{$entryID}[/mp]
+
+Du kannst deinen Eintrag mit einem kurzen Klick unter dem Eintragstext als erledigt markieren.
+
+xx Diese Nachricht wurde vom System automatisch generiert! xx]]></item>
+		
+		<item name="de.0xdefec.rmarketplace.pricesettings.any"><![CDATA[Beliebiger Inhalt (auch leer)]]></item>
+		<item name="de.0xdefec.rmarketplace.pricesettings.anyObligatory"><![CDATA[Beliebiger Inhalt (Pflichtfeld)]]></item>
+		<item name="de.0xdefec.rmarketplace.pricesettings.number"><![CDATA[Numerisch (auch leer)]]></item>
+		<item name="de.0xdefec.rmarketplace.pricesettings.numberObligatory"><![CDATA[Numerisch (Pflichtfeld)]]></item>
+		<item name="de.0xdefec.rmarketplace.entry.price.error.notNumeric"><![CDATA[Bitte hier eine Zahl eingeben!]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.rmarketplace"><![CDATA[Marktplatz]]></item>
+		<item name="wcf.acp.group.option.category.user.rmarketplace.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.category.user.rmarketplace.general"><![CDATA[Allgemeine Einstellungen]]></item>
+		<item name="wcf.acp.group.option.category.user.rmarketplace.general.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.category.user.rmarketplace.attachments"><![CDATA[Dateianhänge]]></item>
+		<item name="wcf.acp.group.option.category.user.rmarketplace.attachments.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canList"><![CDATA[Übersicht]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canList.description"><![CDATA[Mitglieder können den Marktplatz betreten.]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canView"><![CDATA[Öffnen]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canView.description"><![CDATA[Mitglieder können Anzeigen öffnen und lesen.]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canWrite"><![CDATA[Erstellen]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canWrite.description"><![CDATA[Mitglieder können auf dem Marktplatz Einträge erstellen.]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.maxMessageLength"><![CDATA[Maximale Nachrichtenlänge]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.maxMessageLength.description"><![CDATA[Wieviele Zeichen darf der Beschreibungstext von Mitgliedern dieser Benutzergruppe maximal haben?]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canWriteWithoutModeration"><![CDATA[Keine Freischaltung erforderlich]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canWriteWithoutModeration.description"><![CDATA[Einträge müssen nicht erst von einem Benutzer mit Moderationsrechten freigeschaltet werden.]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canEditOwn"><![CDATA[Eigene bearbeiten]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canEditOwn.description"><![CDATA[Mitglieder können eigene Einträge bearbeiten und verändern.]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canDeleteOwn"><![CDATA[Eigene löschen]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canDeleteOwn.description"><![CDATA[Mitglieder können eigene Einträge löschen.]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.showEditMessage"><![CDATA[Editierhinweis anzeigen]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.showEditMessage.description"><![CDATA[Beim Bearbeiten wird ein Hinweis im Eintrag angezeigt wie oft, wann und von wem der Eintrag zuletzt bearbeitet wurde.]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.dontShowEditMessage"><![CDATA[Editierhinweis nicht anzeigen]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.dontShowEditMessage.description"><![CDATA[Beim Bearbeiten wird der Hinweis im Eintrag nicht angezeigt wie oft, wann und von wem der Eintrag zuletzt bearbeitet wurde.]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canDeactivateOwn"><![CDATA[Eigene deaktiveren/aktivieren]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canDeactivateOwn.description"><![CDATA[Mitglieder können eigene Einträge deaktivieren (als erledigt markieren) und ggf. wieder aktivieren.]]></item>
+		
+		<item name="wcf.acp.group.option.user.rmarketplace.maxAttachmentSize"><![CDATA[Maximale Dateianhangsgröße]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.maxAttachmentSize.description"><![CDATA[Maximale Größe pro Dateianhang in Byte.]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.allowedAttachmentExtensions"><![CDATA[Erlaubte Dateiendungen]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.allowedAttachmentExtensions.description"><![CDATA[Erlaubte Endungen für Dateianhänge. Pro Zeile eine Dateiendung angeben.]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.maxAttachmentCount"><![CDATA[Maximale Dateianhänge pro Eintrag]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.maxAttachmentCount.description"><![CDATA[Wieviele Dateianhänge sollen Mitglieder dieser Benutzergruppe pro Eintrag einfügen können?]]></item>
+		
+		<item name="wcf.acp.group.option.category.mod.rmarketplace"><![CDATA[Marktplatz]]></item>
+		<item name="wcf.acp.group.option.category.mod.rmarketplace.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.mod.rmarketplace.canModerate"><![CDATA[Moderationsrechte]]></item>
+		<item name="wcf.acp.group.option.mod.rmarketplace.canModerate.description"><![CDATA[Mitglieder haben Moderationsrechte (ändern, löschen, usw.) auf dem Marktplatz.]]></item>
+		
+		<item name="wcf.acp.group.option.category.admin.rmarketplace"><![CDATA[Marktplatz]]></item>
+		<item name="wcf.acp.group.option.category.admin.rmarketplace.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.admin.rmarketplace.canAdministrate"><![CDATA[Administrationsrechte]]></item>
+		<item name="wcf.acp.group.option.admin.rmarketplace.canAdministrate.description"><![CDATA[Mitglieder haben Administrationsrechte auf dem Marktplatz und können im ACP die Einstellungen anpassen.]]></item>
+
+		<item name="wcf.acp.group.option.user.rmarketplace.canComment"><![CDATA[Kommentieren]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canComment.description"><![CDATA[Mitglieder können Marktplatzeinträge kommentieren.]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.maxCommentLength"><![CDATA[Maximale Kommentarlänge]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.maxCommentLength.description"><![CDATA[Maximale Anzahl an Zeichen in einem Kommentar dieser Gruppe]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canEditOwnComment"><![CDATA[Eigene Kommentare bearbeiten]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canEditOwnComment.description"><![CDATA[Mitglieder dieser Gruppe können eigene Kommentare bearbeiten.]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canDeleteOwnComment"><![CDATA[Eigene Kommentare löschen]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canDeleteOwnComment.description"><![CDATA[Mitglieder dieser Gruppe können eigene Kommentare löschen.]]></item>
+		
+		<item name="wcf.acp.group.option.user.rmarketplace.maxPushCount"><![CDATA[Eintrag erneuern]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.maxPushCount.description"><![CDATA[Wie oft sollen Mitglieder dieser Benutzergruppe einen Eintrag erneuern dürfen?]]></item>
+	</category>
+	<category name="wcf.acp.rmarketplace">
+		<item name="wcf.acp.rmarketplace"><![CDATA[Marktplatz]]></item>
+		<item name="wcf.acp.rmarketplace.categories.list"><![CDATA[Kategorien auflisten]]></item>
+		<item name="wcf.acp.rmarketplace.categories.add"><![CDATA[Kategorie hinzufügen]]></item>
+		<item name="wcf.acp.rmarketplace.category.action"><![CDATA[Aktionen]]></item>
+		<item name="wcf.acp.rmarketplace.category.name"><![CDATA[Bezeichnung]]></item>
+		<item name="wcf.acp.rmarketplace.category.empty"><![CDATA[<p class="error">Keine Kategorien vorhanden. Erstellen Sie mindestens eine Kategorie, damit der Marktplatz funktionieren kann!</p>]]></item>
+		<item name="wcf.acp.rmarketplace.category.edit"><![CDATA[Bearbeiten]]></item>
+		<item name="wcf.acp.rmarketplace.category.askDelete"><![CDATA[Wollen Sie diese Kategorie wirklich löschen? !!! ACHTUNG !!! Sämtliche darin enthaltenen Einträge und Unterkategorien (inkl. deren Einträge) werden ebenfalls gelöscht!!!!]]></item>
+		<item name="wcf.acp.rmarketplace.category.delete"><![CDATA[Löschen]]></item>
+		<item name="wcf.acp.rmarketplace.category"><![CDATA[Kategorie]]></item>
+		<item name="wcf.acp.rmarketplace.category.catName"><![CDATA[Bezeichnung]]></item>
+		<item name="wcf.acp.rmarketplace.category.catParent"><![CDATA[Übergeordnete Kategorie]]></item>
+		<item name="wcf.acp.rmarketplace.category.catDescription"><![CDATA[Beschreibung]]></item>
+		<item name="wcf.acp.rmarketplace.category.catOrder"><![CDATA[Reihenfolge]]></item>
+		<item name="wcf.acp.rmarketplace.category.catIcon"><![CDATA[Icon]]></item>
+		<item name="wcf.acp.rmarketplace.category.catName.description"><![CDATA[Name der Kategorie. Alternativ können Sie hier auch den Namen einer Sprachvariable angeben, wenn Sie den Wert mehrsprachig einstellen wollen. Die Sprachvariable müssen Sie selber anlegen.]]></item>
+		<item name="wcf.acp.rmarketplace.category.catParent.description"><![CDATA[Kategorien können beliebig verschachtelt werden.]]></item>
+		<item name="wcf.acp.rmarketplace.category.catDescription.description"><![CDATA[Kurze Beschreibung der Kategorie. Alternativ können Sie hier auch den Namen einer Sprachvariable angeben, wenn Sie den Wert mehrsprachig einstellen wollen. Die Sprachvariable müssen Sie selber anlegen.]]></item>
+		<item name="wcf.acp.rmarketplace.category.catOrder.description"><![CDATA[Hier kann ein Zahlenwert angegeben werden. Die Kategorien werden aufsteigend sortiert.]]></item>
+		<item name="wcf.acp.rmarketplace.category.catIcon.description"><![CDATA[Grafik die für diese Kategorie verwendet wird. Diese muss in den Größen 16x16 (S), 24x24 (M) und 48x48 (L) im WCF Icons Ordner vorhanden sein. Wenn Sie hier "<strong>email</strong>" eintragen, werden die Dateien <strong>emailS.png, emailM.png und emailL.png</strong> verwendet.]]></item>
+		<item name="wcf.acp.rmarketplace.category.catInfo"><![CDATA[Hinweistext]]></item>
+		<item name="wcf.acp.rmarketplace.category.catInfo.description"><![CDATA[Hinweistext der beim Erstellen eines Eintrags in dieser Kategorie angezeigt wird.]]></item>
+		
+		<item name="wcf.acp.rmarketplace.category.move"><![CDATA[Alle Einträge verschieben nach]]></item>
+		<item name="wcf.acp.rmarketplace.category.move.ask"><![CDATA[Sind Sie sicher, dass Sie sämtliche Einträge dieser Kategorie in die gewählte verschieben wollen? Dies betrifft NICHT die Einträge etwaiger Unterkategorien!]]></item>
+		<item name="wcf.acp.rmarketplace.category.move.success"><![CDATA[Die Einträge wurden erfolgreich verschoben!]]></item>
+
+
+	</category>
+	
+	<category name="wcf.search">
+		<item name="wcf.search.type.mpentry"><![CDATA[Marktplatz]]></item>
+	</category>
+	
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.category.settings.communication.rmarketplace"><![CDATA[Marktplatz Benachrichtigungen]]></item>
+		<item name="wcf.user.option.settings.communication.rmarketplace.pmOnComment"><![CDATA[PM bei Kommentar]]></item>
+		<item name="wcf.user.option.settings.communication.rmarketplace.pmOnComment.description"><![CDATA[Aktiviere diese Option, wenn du über neue Kommentare zu deinen Einträgen mit einer PM informiert werden willst.]]></item>
+		
+		<item name="wcf.user.option.settings.communication.rmarketplace.pmOnExpiringEntry"><![CDATA[Info-PM bevor ein Eintrag abläuft]]></item>
+		<item name="wcf.user.option.settings.communication.rmarketplace.pmOnExpiringEntry.description"><![CDATA[Aktiviere diese Option, wenn du über ablaufende Einträge informiert werden willst.]]></item>
+		
+		<item name="wcf.user.option.category.profile.rmarketplace"><![CDATA[Marktplatz Kontaktmöglichkeiten]]></item>
+		<item name="wcf.user.option.profile.rmarketplace.contactAllowGuest"><![CDATA[Gästen deine Kontaktmöglichkeiten anzeigen]]></item>
+		<item name="wcf.user.option.profile.rmarketplace.contactAllowGuest.description"><![CDATA[Willst du Gästen erlauben deine Kontaktmöglichkeiten zu sehen?]]></item>
+		<item name="wcf.user.option.profile.rmarketplace.contactAllowEMail"><![CDATA[Kontakt per E-Mail]]></item>
+		<item name="wcf.user.option.profile.rmarketplace.contactAllowEMail.description"><![CDATA[Zeigt einen Link zu einem E-Mailformular oder deiner E-Mailadresse bei deinen Marktplatzeinträgen an.]]></item>
+		<item name="wcf.user.option.profile.rmarketplace.contactPhone"><![CDATA[Telefonnummer]]></item>
+		<item name="wcf.user.option.profile.rmarketplace.contactPhone.description"><![CDATA[Gib deine Telefonnummer an, wenn du diese bei deinen Einträgen anzeigen lassen willst.]]></item>
+		<item name="wcf.user.option.profile.rmarketplace.contactPostal"><![CDATA[Adresse]]></item>
+		<item name="wcf.user.option.profile.rmarketplace.contactPostal.description"><![CDATA[Gib deine Adresse an, wenn du diese bei deinen Einträgen anzeigen lassen willst.]]></item>
+		<item name="wcf.user.option.profile.rmarketplace.contactOther"><![CDATA[Sonstiges]]></item>
+		<item name="wcf.user.option.profile.rmarketplace.contactOther.description"><![CDATA[Sonstige Kontaktmöglichkeiten oder Informationen betreffend der Kontaktaufnahmen die angezeigt werden sollen.]]></item>
+	</category>
+</language>

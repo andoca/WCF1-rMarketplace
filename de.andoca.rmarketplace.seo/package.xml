@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+<package name="de.andoca.rmarketplace.seo">
+	<packageinformation>
+		<packagename><![CDATA[rMarketplace Search Engine Optimization]]></packagename>
+		<packagename language="de"><![CDATA[rMarketplace Suchmaschinenoptimierung]]></packagename>
+		<packagename language="de-informal"><![CDATA[rMarketplace Suchmaschinenoptimierung]]></packagename>
+		<packagename language="en"><![CDATA[rMarketplace Search Engine Optimization]]></packagename>
+		
+		<packagedescription></packagedescription>
+		<packagedescription language="de"><![CDATA[Das SEO (Search Engine Optimization) Plugin ermöglicht eine Anpassung der URLs in ein für Menschen lesbares Format. Neben dem angenehmen Effekt, dass sich URLs besser lesen lassen werden die URLs für die Suchmaschinen einfacher indexierbar.]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Das SEO (Search Engine Optimization) Plugin ermöglicht eine Anpassung der URLs in ein für Menschen lesbares Format. Neben dem angenehmen Effekt, dass sich URLs besser lesen lassen werden die URLs für die Suchmaschinen einfacher indexierbar.]]></packagedescription>
+		<packagedescription language="en"><![CDATA[The SEO (Search Engine Optimization) Plugin rewrites URLs into a format readable by humans. Not only that URLs are easier to read they are optimized for search rotbos so they can index sites more efficient.]]></packagedescription>
+		<packageurl><![CDATA[http://www.andoca.de]]></packageurl>
+		
+		<version>1.2.0 RC 4</version>
+		<date>2011-06-23</date>
+		<isUnique>1</isUnique>
+		<plugin>com.woltlab.wcf.data.page.seo</plugin>
+	</packageinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.1.0 RC 1">com.woltlab.wcf</requiredpackage> 
+		<requiredpackage minversion="1.1.0">com.woltlab.wcf.data.page.seo</requiredpackage>
+		<requiredpackage minversion="1.0.1" file="requirements/com.viecode.seo.pip.tar.gz">com.viecode.seo.pip</requiredpackage> 
+		<requiredpackage minversion="1.2.1">de.0xdefec.rmarketplace</requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages />
+	
+	<authorinformation>
+		<author>Andoca Haustier-WG UG (haftungsbeschränkt)</author>
+		<authorurl>http://www.andoca.de</authorurl>
+	</authorinformation>
+	
+	<instructions type="install">
+		<files>files.tar</files>
+		<options>options.xml</options>
+		<eventlistener>eventlistener.xml</eventlistener>
+		<seorewriterrules>seorewriterrules.xml</seorewriterrules>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.2.0 RC 1">
+		<files>files.tar</files>
+		<seorewriterrules>seorewriterrules.xml</seorewriterrules>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.2.0 RC 2">
+		<files>files.tar</files>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.2.0 RC 3">
+	</instructions>
+</package>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de-informal">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.PROFILE_SHOW_MARKETPLACE_ENTRIES"><![CDATA[Einträge im Profil]]></item>
+		<item name="wcf.acp.option.PROFILE_SHOW_MARKETPLACE_ENTRIES.description"><![CDATA[Marktplatzeinträge im Benutzerprofil anzeigen]]></item>
+		<item name="wcf.acp.option.SIDEBAR_SHOW_MARKETPLACE_ENTRIES"><![CDATA[Einträge in der Sidebar]]></item>
+		<item name="wcf.acp.option.SIDEBAR_SHOW_MARKETPLACE_ENTRIES.description"><![CDATA[Marktplatzeinträge des Benutzers in der MessageSidebar (unter dem Avatar) bei z.B. Forenpostings anzeigen]]></item>
+	</category>
+	<category name="wcf.message.sidebar">
+		<item name="wcf.message.sidebar.rmarketplace"><![CDATA[Aktuelle Marktplatzeinträge]]></item>
+	</category>
+</language>

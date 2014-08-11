@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE import SYSTEM "DTD/import.dtd">
+<data>
+	<import>
+		<acpmenuitem name="wcf.acp.rmarketplace">
+			<parent>wcf.acp.menu.link.content</parent>
+			<permissions>admin.rmarketplace.canAdministrate</permissions>
+			<options>module_rmarketplace</options>
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.rmarketplace.categories.list">
+			<parent>wcf.acp.rmarketplace</parent>
+			<link>index.php?page=RMarketplaceCategoryList</link>
+			<permissions>admin.rmarketplace.canAdministrate</permissions>
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.rmarketplace.categories.add">
+			<parent>wcf.acp.rmarketplace</parent>
+			<link>index.php?form=RMarketplaceCategoryAdd</link>
+			<permissions>admin.rmarketplace.canAdministrate</permissions>
+		</acpmenuitem>
+	</import>
+</data>

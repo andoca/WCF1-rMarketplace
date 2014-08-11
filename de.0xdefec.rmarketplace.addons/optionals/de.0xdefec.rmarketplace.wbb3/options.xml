@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTD/options.dtd">
+<data>
+	<import>
+		<options>
+			<option name="RMARKETPLACE_WBB3_SHOW_LAST">
+				<categoryname>de.0xdefec.rmarketplace.config</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/eventListeners.dtd">
+<data>	
+	<import>
+		<!-- Rewriter -->
+		<eventlistener>
+			<eventClassName>StructuredTemplate</eventClassName>
+			<eventName>shouldDisplay</eventName>
+			<listenerClassFile>lib/system/event/listener/RMarketplaceSEODisplayListener.class.php</listenerClassFile>
+		</eventlistener>
+		<!-- Parser -->
+		<eventlistener>
+			<eventClassName>URLParser</eventClassName>
+			<eventName>didParse</eventName>
+			<listenerClassFile>lib/system/event/listener/RMarketplaceSEOURLParserListener.class.php</listenerClassFile>
+		</eventlistener>
+		<!-- Redirecter -->
+		<eventlistener>
+			<eventClassName>AbstractPage</eventClassName>
+			<eventName>readData</eventName>
+			<inherit>1</inherit>
+			<listenerClassFile>lib/system/event/listener/RMarketplaceSEORedirectListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>AbstractForm</eventClassName>
+			<eventName>readData</eventName>
+			<inherit>1</inherit>
+			<listenerClassFile>lib/system/event/listener/RMarketplaceSEORedirectListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>AbstractAction</eventClassName>
+			<eventName>readData</eventName>
+			<inherit>1</inherit>
+			<listenerClassFile>lib/system/event/listener/RMarketplaceSEORedirectListener.class.php</listenerClassFile>
+		</eventlistener>
+		<!-- Category name to id -->
+		<eventlistener>
+			<eventClassName>RMarketplacePage</eventClassName>
+			<eventName>readParameters</eventName>
+			<listenerClassFile>lib/system/event/listener/RMarketplaceSEOCategoryListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>RMarketplaceMapPage</eventClassName>
+			<eventName>readParameters</eventName>
+			<listenerClassFile>lib/system/event/listener/RMarketplaceSEOCategoryListener.class.php</listenerClassFile>
+		</eventlistener>
+	</import>
+</data>

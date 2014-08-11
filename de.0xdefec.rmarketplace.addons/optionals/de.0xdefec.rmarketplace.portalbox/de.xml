@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "DTD/language.dtd">
+<language languagecode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.portal.box.rmarketplace"><![CDATA[Marktplatz]]></item>
+		<item name="wcf.acp.option.category.portal.box.rmarketplace.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_limit_rmarketplace"><![CDATA[Anzahl der Einträge (mittlere Box)]]></item>
+		<item name="wcf.acp.option.portal_limit_rmarketplace.description"><![CDATA[Anzahl der in der mittleren Marktplatz-Box anzuzeigenden Einträge]]></item>
+		<item name="wcf.acp.option.portal_rmarketplaceboxitems_random"><![CDATA[Zufällige Einträge anzeigen (mittlere Box)]]></item>
+		<item name="wcf.acp.option.portal_rmarketplaceboxitems_random.description"><![CDATA[]]></item>
+		
+		<item name="wcf.acp.option.portal_limit_rmarketplaceside"><![CDATA[Anzahl der Einträge (seitliche Box)]]></item>
+		<item name="wcf.acp.option.portal_limit_rmarketplaceside.description"><![CDATA[Anzahl der in der seitlichen Marktplatz-Box anzuzeigenden Einträge je Typ (Gesuche und Angebote). Wird hier "3" angegeben, werden drei Gesuche und drei Angebote aufgelistet.]]></item>
+		<item name="wcf.acp.option.portal_rmarketplacesideboxitems_random"><![CDATA[Zufällige Einträge anzeigen (seitliche Box)]]></item>
+		<item name="wcf.acp.option.portal_rmarketplacesideboxitems_random.description"><![CDATA[]]></item>
+	</category>
+	<category name="wbb.portal">
+		<item name="wbb.portal.box.rmarketplacebox.title"><![CDATA[Einträge aus dem Marktplatz]]></item>
+		<item name="wbb.portal.box.rmarketplacesidebox.title"><![CDATA[Marktplatz]]></item>
+		<item name="wbb.portal.box.rmarketplace.title.random"><![CDATA[Einträge aus dem Marktplatz]]></item>
+		<item name="wbb.portal.box.rmarketplace.title.new"><![CDATA[Die neuesten Einträge aus dem Marktplatz]]></item>
+		<item name="wbb.portal.box.rmarketplace.noentries"><![CDATA[Es sind keine Einträge auf dem Marktplatz vorhanden.]]></item>
+	</category>
+</language>

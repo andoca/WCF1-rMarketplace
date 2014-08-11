@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de-informal">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.external"><![CDATA[Widget]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.external.description"><![CDATA[Einstellungen für das Marktplatz-Widget mit dem Benutzer den Marktplatz auf ihrer eigenen Seite einbinden können.]]></item>
+		<item name="wcf.acp.option.MP_EXTERNAL_ENABLED"><![CDATA[Externe Einbindung erlauben]]></item>
+		<item name="wcf.acp.option.MP_EXTERNAL_ENABLED.description"><![CDATA[Erlaubt das externe Einbinden des Marktplatzes auf anderen Webseiten für alle Benutzer und Gäste!]]></item>
+		<item name="wcf.acp.option.MP_EXTERNAL_MAX_ITEMS"><![CDATA[Maximale Einträge]]></item>
+		<item name="wcf.acp.option.MP_EXTERNAL_MAX_ITEMS.description"><![CDATA[Maximale Anzahl an Einträgen die extern angezeigt werden.]]></item>
+		<item name="wcf.acp.option.MP_EXTERNAL_ABS_PATH"><![CDATA[Absoluter Pfad zum Marktplatz]]></item>
+		<item name="wcf.acp.option.MP_EXTERNAL_ABS_PATH.description"><![CDATA[Pfad beginnend mit http:// zu einer Endanwendung über die der Marktplatz aufgerufen werde kann (z.b. dem WBB - in diesem Fall der Ordner in dem sich die Datei index.php des Forums befindet - mit / am Ende!)]]></item>
+	</category>
+	<category name="de.0xdefec.rmarketplace.external">
+		<item name="de.0xdefec.rmarketplace.external.gotoEntry"><![CDATA[zum Angebot]]></item>
+		<item name="de.0xdefec.rmarketplace.external"><![CDATA[Marktplatz Widget]]></item>
+		<item name="de.0xdefec.rmarketplace.external.includeHeadline"><![CDATA[Den Marktplatz auf der eigene Seite einbinden]]></item>
+		<item name="de.0xdefec.rmarketplace.external.includeDesc"><![CDATA[Mit ein paar wenigen Zeilen Code kannst du den Marktplatz auch auf deiner Seite einbinden und die aktuellsten Einträge anzeigen lassen!]]></item>
+		<item name="de.0xdefec.rmarketplace.external.widget"><![CDATA[Widget erstellen]]></item>
+		<item name="de.0xdefec.rmarketplace.external.widgetDesc"><![CDATA[Um dein individuelles Widget für deine Seite zu erstellen, kannst du den Code aus dem Textfeld entweder direkt kopieren, oder mit den Auswahlfeldern an deine Wünsche anpassen.]]></item>
+		<item name="de.0xdefec.rmarketplace.external.items"><![CDATA[Anzahl]]></item>
+		<item name="de.0xdefec.rmarketplace.external.itemsDesc"><![CDATA[Anzahl der Einträge die angezeigt werden sollen.]]></item>
+		<item name="de.0xdefec.rmarketplace.external.categories"><![CDATA[Kategorien]]></item>
+		<item name="de.0xdefec.rmarketplace.external.categoriesDesc"><![CDATA[Wähle aus, aus welchen Kategorie die Einträge kommen sollen. Wählst du hier nur eine Kategorie aus, sind automatisch auch die Einträge der Unterkategorien eingeschlossen. Ist mehr als eine Kategorie gewählt, müssen die Unterkategorien zusätzlich ausgewählt werden, wenn diese auch berücksichtigt werden sollen.]]></item>
+		<item name="de.0xdefec.rmarketplace.external.userID"><![CDATA[Nur eigene Einträge]]></item>
+		<item name="de.0xdefec.rmarketplace.external.filter"><![CDATA[Filter]]></item>
+		<item name="de.0xdefec.rmarketplace.external.userIDDesc"><![CDATA[Sollen nur Einträge von dir angezeigt werden?]]></item>
+		<item name="de.0xdefec.rmarketplace.external.filter.both"><![CDATA[Gesuche und Angebote]]></item>
+		<item name="de.0xdefec.rmarketplace.external.refreshWidget"><![CDATA[Widget-Code aktualisieren]]></item>
+		<item name="de.0xdefec.rmarketplace.external.headline"><![CDATA[Der Marktplatz auf deiner Website]]></item>
+		<item name="de.0xdefec.rmarketplace.external.teaser"><![CDATA[Du hast eine eigene Webseite und möchten deinen Besuchern einen zusätzlichen Service bieten? Du kannst den Marktplatz mit <a href="index.php?page=RMarketplaceWidget{@SID_ARG_2ND}">wenigen Klicks auch auf deiner Webseite einbinden</a> und immer aktuellen Einträge anzeigen lassen!]]></item>
+		<item name="de.0xdefec.rmarketplace.external.widgetRefreshed"><![CDATA[Der Widget-Code wurde aktualisiert - du kannst ihn nun kopieren und auf deiner Webseite einbinden.]]></item>
+		<item name="de.0xdefec.rmarketplace.external.useSearch"><![CDATA[Verwende die Suche, um den {PAGE_TITLE} Marktplatz zu durchsuchen:]]></item>
+		<item name="de.0xdefec.rmarketplace.external.searchText"><![CDATA[PLZ oder Stichwort eingeben]]></item>
+		<item name="de.0xdefec.rmarketplace.external.enterOwn"><![CDATA[eigenen Eintrag erstellen]]></item>
+		<item name="de.0xdefec.rmarketplace.external.viewAll"><![CDATA[weitere Angebote aufrufen]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.rmarketplace.external"><![CDATA[Widget]]></item>
+		<item name="wcf.acp.group.option.category.user.rmarketplace.external.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canViewExternal"><![CDATA[Externe Einbindungsmöglichkeiten anzeigen]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canViewExternal.description"><![CDATA[Mitglieder können sich HTML Code zum Einbinden des Marktplatzes auf der eigenen Seite erstellen lassen. Der externe Zugriff auf den Marktplatz lässt sich technisch nicht auf Benutzergruppen einschränken!]]></item>
+	</category>
+	<category name="wcf.acp.package">
+		<item name="wcf.acp.package.0xdefec.license.title"><![CDATA[Lizenzschlüssel]]></item>
+		<item name="wcf.acp.package.0xdefec.license.description"><![CDATA[Zur Verwendung diesen Paketes musst du diese Installation aktivieren. Dabei werden folgende Daten an den Aktivierungsserver übertragen: URL der Webseite, Paketname, Paketversion, Lizenzschlüssel. Weitere Informationen findest du in der Hilfe auf der Homepage des Paketes.]]></item>
+		<item name="wcf.acp.package.0xdefec.license.servererror"><![CDATA[Es konnte keine Verbindung zum Aktivierungsserver hergestellt werden.]]></item>
+		<item name="wcf.acp.package.0xdefec.license.key"><![CDATA[Lizenzschlüssel für die Seite ({PAGE_URL})]]></item>
+	</category>
+</language>

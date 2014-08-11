@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de-informal">
+	<category name="de.0xdefec.rmarketplace">
+		<item name="de.0xdefec.rmarketplace.copyright"><![CDATA[]]></item>
+	</category>
+</language>

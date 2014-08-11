@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/options.dtd">
+<data>
+	<import>
+		<categories>
+			<category name="profile.rmarketplace">
+				<parent>profile</parent>
+				<menuicon>rMarketplaceS.png</menuicon>
+				<showOrder>4</showOrder>
+				<options>module_rmarketplace</options>
+			</category>
+			<category name="settings.communication.rmarketplace">
+				<parent>settings.communication</parent>
+				<menuicon>rMarketplaceS.png</menuicon>
+				<showOrder>2</showOrder>
+				<options>module_rmarketplace</options>
+			</category>
+		</categories>
+		<options>
+			<option name="settings.communication.rmarketplace.pmOnComment">
+				<categoryname>settings.communication.rmarketplace</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<visible>4</visible>
+				<options>module_pm</options>
+			</option>
+			<option name="settings.communication.rmarketplace.pmOnExpiringEntry">
+				<categoryname>settings.communication.rmarketplace</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<visible>4</visible>
+				<options>module_pm</options>
+			</option>
+			<option name="profile.rmarketplace.contactAllowGuest">
+				<categoryname>profile.rmarketplace</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<visible>4</visible>
+			</option>
+			<!-- option name="profile.rmarketplace.contactAllowPN">
+				<categoryname>profile.rmarketplace</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option-->
+			<option name="profile.rmarketplace.contactAllowEMail">
+				<categoryname>profile.rmarketplace</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<visible>4</visible>
+			</option>
+			<option name="profile.rmarketplace.contactPhone">
+				<categoryname>profile.rmarketplace</categoryname>
+				<optiontype>text</optiontype>
+				<visible>4</visible>
+			</option>
+			<option name="profile.rmarketplace.contactPostal">
+				<categoryname>profile.rmarketplace</categoryname>
+				<optiontype>textarea</optiontype>
+				<visible>4</visible>
+			</option>
+			<option name="profile.rmarketplace.contactOther">
+				<categoryname>profile.rmarketplace</categoryname>
+				<optiontype>textarea</optiontype>
+				<visible>4</visible>
+			</option>
+			<!-- option name="rmLastActivity">
+				<categoryname>hidden</categoryname>
+				<optiontype>integer</optiontype>
+				<visible>4</visible>
+				<editable>4</editable>
+			</option>
+			<option name="rmLastVisit">
+				<categoryname>hidden</categoryname>
+				<optiontype>integer</optiontype>
+				<visible>4</visible>
+				<editable>4</editable>
+			</option>
+			<option name="rmCurrentLastVisit">
+				<categoryname>hidden</categoryname>
+				<optiontype>integer</optiontype>
+				<visible>4</visible>
+				<editable>4</editable>
+			</option -->
+		</options>
+	</import>
+</data>

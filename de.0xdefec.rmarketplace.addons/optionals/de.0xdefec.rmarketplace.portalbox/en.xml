@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "DTD/language.dtd">
+<language languagecode="en">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.portal.box.rmarketplace"><![CDATA[Marketplace]]></item>
+		<item name="wcf.acp.option.category.portal.box.rmarketplace.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_limit_rmarketplace"><![CDATA[Number of entries (center box)]]></item>
+		<item name="wcf.acp.option.portal_limit_rmarketplace.description"><![CDATA[Number of entries to display in the center box]]></item>
+		<item name="wcf.acp.option.portal_rmarketplaceboxitems_random"><![CDATA[Show random entry (center box)]]></item>
+		<item name="wcf.acp.option.portal_rmarketplaceboxitems_random.description"><![CDATA[]]></item>
+		
+		<item name="wcf.acp.option.portal_limit_rmarketplaceside"><![CDATA[Number of entries (side box)]]></item>
+		<item name="wcf.acp.option.portal_limit_rmarketplaceside.description"><![CDATA[Number of entries to display in the side box per entry type. If you enter "3" here, three searches and three offeres will be displayed.]]></item>
+		<item name="wcf.acp.option.portal_rmarketplacesideboxitems_random"><![CDATA[Show random entry (side box)]]></item>
+		<item name="wcf.acp.option.portal_rmarketplacesideboxitems_random.description"><![CDATA[]]></item>
+	</category>
+	<category name="wbb.portal">
+		<item name="wbb.portal.box.rmarketplacebox.title"><![CDATA[Entries from the marketplace]]></item>
+		<item name="wbb.portal.box.rmarketplacesidebox.title"><![CDATA[Marketplace]]></item>
+		<item name="wbb.portal.box.rmarketplace.title.random"><![CDATA[Entries from the marketplace]]></item>
+		<item name="wbb.portal.box.rmarketplace.title.new"><![CDATA[Newest entries from the marketplace]]></item>
+		<item name="wbb.portal.box.rmarketplace.noentries"><![CDATA[No entries on the marketplace]]></item>
+	</category>
+</language>

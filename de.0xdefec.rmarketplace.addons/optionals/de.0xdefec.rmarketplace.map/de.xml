@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.gmaps.large"><![CDATA[Große Karte]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.gmaps.large.description"><![CDATA[Einstellungen für die große Übersichtskarte]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_HIDE_OLD"><![CDATA[Alte Einträge ausblenden]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_HIDE_OLD.description"><![CDATA[Blendet alte Einträge aus der Karte aus.]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_ENABLED"><![CDATA[Große Karte aktivieren]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_ENABLED.description"><![CDATA[Zeigt einen Link zur großen (100% Breite) Karte an und erlaubt den Zugriff darauf.]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_START_SET"><![CDATA[Startpunkt der Karte festlegen]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_START_SET.description"><![CDATA[Der Startpunkt der Karte wird normalerweise automatisch auf den Aufenthaltort des Benutzers gelegt (ermittelt über die IP Adresse). Ist dies nicht gewünscht, kann hier ein Punkt angegeben werden.]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_LAT"><![CDATA[Startpunkt Latitude]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_LAT.description"><![CDATA[Geographische Breite des Startpunkts der Karte, wenn dieser nicht über die IP-Adresse bestimmt werden kann]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_LNG"><![CDATA[Startpunkt Longitude]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_LNG.description"><![CDATA[Geographische Länge des Startpunkts der Karte, wenn dieser nicht über die IP-Adresse bestimmt werden kann]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_ZOOM"><![CDATA[Zoomlevel]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_ZOOM.description"><![CDATA[Zoomlevel (1-20) mit dem die große Karte angezeigt werden soll.]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_TYPE"><![CDATA[Kartentyp]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_TYPE.description"><![CDATA[Art der Karte die angezeigt werden soll.]]></item>
+	</category>
+	<category name="de.0xdefec.rmarketplace.map">
+		<item name="de.0xdefec.rmarketplace.map.show"><![CDATA[Große Karte anzeigen]]></item>
+		<item name="de.0xdefec.rmarketplace.map.title"><![CDATA[Übersichtskarte]]></item>
+		<item name="de.0xdefec.rmarketplace.map.description"><![CDATA[Alle Einträge des Marktplatzes finden Sie hier auf der Karte.]]></item>
+		<item name="de.0xdefec.rmarketplace.map.localSearch.title"><![CDATA[Umkreissuche]]></item>
+		<item name="de.0xdefec.rmarketplace.map.localSearch.welcome"><![CDATA[Folgende Einträge befinden sich im Umkreis von {#$radius} km zu Ihrer eingegebenen Adresse &raquo;{$address}&laquo;.]]></item>
+		<item name="de.0xdefec.rmarketplace.map.localSearch.address"><![CDATA[z.b. 50676 Köln, Deutschland]]></item>
+	</category>
+	<category name="wcf.usersOnline">
+		<item name="wcf.usersOnline.location.rMarketplaceMap"><![CDATA[Marktplatz Übersichtskarte]]></item>
+	</category>
+</language>

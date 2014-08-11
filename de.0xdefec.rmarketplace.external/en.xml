@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="en">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.external"><![CDATA[Widget]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.external.description"><![CDATA[Settings for the marketplace widget, which allows users to embedd the marketplace on their homepages.]]></item>
+		<item name="wcf.acp.option.MP_EXTERNAL_ENABLED"><![CDATA[Activate the widget]]></item>
+		<item name="wcf.acp.option.MP_EXTERNAL_ENABLED.description"><![CDATA[Activates the widget for all users (including guests!).]]></item>
+		<item name="wcf.acp.option.MP_EXTERNAL_MAX_ITEMS"><![CDATA[Maximum entries]]></item>
+		<item name="wcf.acp.option.MP_EXTERNAL_MAX_ITEMS.description"><![CDATA[Maximum amount of entries to be displayed with the widget.]]></item>
+		<item name="wcf.acp.option.MP_EXTERNAL_ABS_PATH"><![CDATA[Absoluter path to the marketplace]]></item>
+		<item name="wcf.acp.option.MP_EXTERNAL_ABS_PATH.description"><![CDATA[Starting with http:// - the path to the forum]]></item>
+	</category>
+	<category name="de.0xdefec.rmarketplace.external">
+		<item name="de.0xdefec.rmarketplace.external.gotoEntry"><![CDATA[details]]></item>
+		<item name="de.0xdefec.rmarketplace.external"><![CDATA[Marketplace widget]]></item>
+		<item name="de.0xdefec.rmarketplace.external.includeHeadline"><![CDATA[Embed the marketplace on your website]]></item>
+		<item name="de.0xdefec.rmarketplace.external.includeDesc"><![CDATA[Include the marketplace on your website, just with a few clicks!]]></item>
+		<item name="de.0xdefec.rmarketplace.external.widget"><![CDATA[Create widget]]></item>
+		<item name="de.0xdefec.rmarketplace.external.widgetDesc"><![CDATA[To generate your widget code, just copy and paste the code from the textarea or chose some options underneath.]]></item>
+		<item name="de.0xdefec.rmarketplace.external.items"><![CDATA[Amount]]></item>
+		<item name="de.0xdefec.rmarketplace.external.itemsDesc"><![CDATA[Amount of entries to display]]></item>
+		<item name="de.0xdefec.rmarketplace.external.categories"><![CDATA[Categories]]></item>
+		<item name="de.0xdefec.rmarketplace.external.categoriesDesc"><![CDATA[Chose the categories to be displayd in your widget.]]></item>
+		<item name="de.0xdefec.rmarketplace.external.userID"><![CDATA[Only your own entries]]></item>
+		<item name="de.0xdefec.rmarketplace.external.filter"><![CDATA[Filter]]></item>
+		<item name="de.0xdefec.rmarketplace.external.userIDDesc"><![CDATA[Only display your entries?]]></item>
+		<item name="de.0xdefec.rmarketplace.external.filter.both"><![CDATA[Searches and offers]]></item>
+		<item name="de.0xdefec.rmarketplace.external.refreshWidget"><![CDATA[refresh widget code]]></item>
+		<item name="de.0xdefec.rmarketplace.external.headline"><![CDATA[The marketplace on your website]]></item>
+		<item name="de.0xdefec.rmarketplace.external.teaser"><![CDATA[You have a website and want to include the marketplace on it? Use the <a href="index.php?page=RMarketplaceWidget{@SID_ARG_2ND}">marketplace widget</a> to embed a selection of entries on your own website!]]></item>
+		<item name="de.0xdefec.rmarketplace.external.widgetRefreshed"><![CDATA[The widget code was refreshed - copy and paste it to your website now!]]></item>
+		<item name="de.0xdefec.rmarketplace.external.useSearch"><![CDATA[Search the marketplace of {PAGE_TITLE}:]]></item>
+		<item name="de.0xdefec.rmarketplace.external.searchText"><![CDATA[enter zip code or search phrase]]></item>
+		<item name="de.0xdefec.rmarketplace.external.enterOwn"><![CDATA[write an entry]]></item>
+		<item name="de.0xdefec.rmarketplace.external.viewAll"><![CDATA[all entries]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.rmarketplace.external"><![CDATA[Widget]]></item>
+		<item name="wcf.acp.group.option.category.user.rmarketplace.external.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canViewExternal"><![CDATA[Display the widget]]></item>
+		<item name="wcf.acp.group.option.user.rmarketplace.canViewExternal.description"><![CDATA[Members of this group can generate a widget code]]></item>
+	</category>
+	<category name="wcf.acp.package">
+		<item name="wcf.acp.package.0xdefec.license.title"><![CDATA[License key]]></item>
+		<item name="wcf.acp.package.0xdefec.license.description"><![CDATA[To use this package you have to activate this installation using your license key. The following data will be sent to the activation server: URL of this website, package name, package version, your license key. You can find more information about the activation on the package homepage.]]></item>
+		<item name="wcf.acp.package.0xdefec.license.servererror"><![CDATA[Error establishing the connection to the activation server.]]></item>
+		<item name="wcf.acp.package.0xdefec.license.key"><![CDATA[License key for this page ({PAGE_URL})]]></item>
+	</category>
+</language>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+<package name="com.viecode.seo.pip">
+	<packageinformation>
+		<packagename><![CDATA[Search Engine Optimization Rewriter Rules PIP]]></packagename>
+		<packagedescription><![CDATA[]]></packagedescription>
+		
+		<version>1.0.1</version>
+		<date>2010-07-19</date>
+		<isUnique>1</isUnique>
+		<plugin>com.woltlab.wcf</plugin>
+	</packageinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.1.0 RC 1">com.woltlab.wcf</requiredpackage> 
+		<requiredpackage minversion="1.1.0">com.woltlab.wcf.data.page.seo</requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages />
+	
+	<authorinformation>
+		<author><![CDATA[VieCode]]></author>
+		<authorURL>http://www.viecode.com</authorURL>
+	</authorinformation>
+	
+	<instructions type="install">
+		<packageinstallationplugins>pip.tar</packageinstallationplugins>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.0 RC *">
+		<packageinstallationplugins>pip.tar</packageinstallationplugins>
+	</instructions>
+</package>

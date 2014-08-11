@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<data>
+	<import>
+		<seoRewriterRulesItem>
+			<rewriterRule><![CDATA[RewriteRule ^marketplace/$ index.php?page=RMarketplace [L,QSA]]]></rewriterRule>
+			<rewriterRule><![CDATA[RewriteRule ^marketplace/map.html(\&cat\=0)?$ index.php?page=RMarketplaceMap [L,QSA]]]></rewriterRule>
+			<rewriterRule><![CDATA[RewriteRule ^marketplace/new-items.html$ index.php?page=RMarketplace&cat=0&newItems=1 [L,QSA]]]></rewriterRule>
+			<rewriterRule><![CDATA[RewriteRule ^marketplace/(search|offer).html$ index.php?page=RMarketplace&cat=0&type=$1 [L,QSA]]]></rewriterRule>
+			<rewriterRule><![CDATA[RewriteRule ^marketplace/page([0-9]+).html$ index.php?page=RMarketplace&cat=0&pageNum=$1 [L,QSA]]]></rewriterRule>
+			<rewriterRule><![CDATA[RewriteRule ^marketplace/(search|offer)/page([0-9]+).html$ index.php?page=RMarketplace&cat=0&type=$1&pageNum=$2 [L,QSA]]]></rewriterRule>
+			<rewriterRule><![CDATA[RewriteRule ^marketplace/(((.*)/)?)([0-9]+)-([^/]+)/$ index.php?page=RMarketplace&cat=$4 [L,QSA]]]></rewriterRule>
+			<rewriterRule><![CDATA[RewriteRule ^marketplace/(((.*)/)?)([0-9]+)-([^/]+)/page([0-9]+).html$ index.php?page=RMarketplace&cat=$4&pageNum=$6 [L,QSA]]]></rewriterRule>
+			<rewriterRule><![CDATA[RewriteRule ^marketplace/(((.*)/)?)([0-9]+)-([^/]+)/(search|offer).html$ index.php?page=RMarketplace&cat=$4&type=$6 [L,QSA]]]></rewriterRule>
+			<rewriterRule><![CDATA[RewriteRule ^marketplace/(((.*)/)?)([0-9]+)-([^/]+)/(search|offer)/page([0-9]+).html$ index.php?page=RMarketplace&cat=$4&type=$5&pageNum=$7 [L,QSA]]]></rewriterRule>
+			<rewriterRule><![CDATA[RewriteRule ^marketplace/(((.*)/)?)([0-9]+)-([^/]+)/([0-9]+)-([^/]+).html$ index.php?page=RMarketplaceEntry&entryID=$6 [L,QSA]]]></rewriterRule>
+			<rewriterRule><![CDATA[RewriteRule ^marketplace/(((.*)/)?)([0-9]+)-([^/]+)/map.html$ index.php?page=RMarketplaceMap&cat=$4 [L,QSA]]]></rewriterRule>
+			<rewriterRule><![CDATA[RewriteRule ^marketplace/(((.*)/)?)([0-9]+)-([^/]+)/map/(offer/search).html$ index.php?page=RMarketplaceMap&cat=$4&type=$5 [L,QSA]]]></rewriterRule>
+			<rewriterRule><![CDATA[RewriteRule ^marketplace/widget.html$ index.php?page=RMarketplaceWidget [L,QSA]]]></rewriterRule>
+		</seoRewriterRulesItem>
+	</import>
+</data>

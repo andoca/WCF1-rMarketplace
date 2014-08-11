@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.0xdefec.rmarketplace.wbb3" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[rMarketplace WBB3 Integration]]></packagename>
+		<packageDescription language="en"><![CDATA[Includes the rMarketplace in the Woltlab Burning Board.]]></packageDescription>
+		<packageDescription language="de"><![CDATA[Bindet den rMarketplace in das WBB ein.]]></packageDescription>
+		<packageurl><![CDATA[http://www.andoca.de]]></packageurl>
+		<version>1.1.0</version>
+		<plugin>com.woltlab.wbb</plugin>
+		<isunique>1</isunique>
+		<date>2011-04-18</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Andoca Haustier-WG UG (haftungsbeschränkt)</author>
+		<authorurl>http://www.andoca.de</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.2.1">de.0xdefec.rmarketplace</requiredpackage>
+		<requiredpackage minversion="3.1.0">com.woltlab.wbb</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<options>options.xml</options>
+		<useroptions>useroptions.xml</useroptions>
+		<eventlistener>eventlistener.xml</eventlistener>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+	</instructions>
+	
+	<instructions type="update" fromversion="*">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<options>options.xml</options>
+		<useroptions>useroptions.xml</useroptions>
+		<eventlistener>eventlistener.xml</eventlistener>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+	</instructions>
+</package>

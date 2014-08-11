@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.RMARKETPLACE_WBB3_SHOW_LAST"><![CDATA[Letzte Einträge im Forum anzeigen]]></item>
+		<item name="wcf.acp.option.RMARKETPLACE_WBB3_SHOW_LAST.description"><![CDATA[Zeigt eine Box mit den letzten fünf Einträgen aus dem rMarketplace auf der Startseite des WBB3 an.]]></item>
+	</category>
+</language>

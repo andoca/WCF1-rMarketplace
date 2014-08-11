@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTD/options.dtd">
+<data>
+	<import>
+		<categories>
+			<category name="de.0xdefec.rmarketplace.external">
+				<parent>de.0xdefec.rmarketplace</parent>
+				<showorder>500</showorder>
+			</category>
+		</categories>
+		<options>
+			<option name="MP_EXTERNAL_ENABLED">
+				<categoryname>de.0xdefec.rmarketplace.external</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<enableoptions>MP_EXTERNAL_MAX_ITEMS,MP_EXTERNAL_ABS_PATH</enableoptions>
+			</option>
+			<option name="MP_EXTERNAL_MAX_ITEMS">
+				<categoryname>de.0xdefec.rmarketplace.external</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>50</defaultvalue>
+			</option>
+			<option name="MP_EXTERNAL_ABS_PATH">
+				<categoryname>de.0xdefec.rmarketplace.external</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue></defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

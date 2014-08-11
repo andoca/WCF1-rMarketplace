@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE import SYSTEM "DTD/import.dtd">
+<data>
+	<import>
+		<eventlistener>
+			<eventclassname>StructuredTemplate</eventclassname>
+			<eventname>shouldDisplay</eventname>
+			<environment>user</environment>
+			<listenerClassFile>lib/system/event/listener/RMarketplaceWBB3Listener.class.php</listenerClassFile>
+		</eventlistener>
+	</import>
+</data>

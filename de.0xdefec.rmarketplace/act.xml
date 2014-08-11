@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/act.dtd">
+<data>	
+	<import>
+		<act name="rmentry">
+			<url><![CDATA[index.php?page=RMarketplaceEntry&entryID=%s]]></url>
+		</act>
+	</import>
+</data>

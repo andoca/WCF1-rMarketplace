@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTD/options.dtd">
+<data>
+	<import>
+		<categories>
+			<category name="de.0xdefec.rmarketplace">
+				<permissions>admin.rmarketplace.canAdministrate</permissions>
+			</category>
+			<category name="de.0xdefec.rmarketplace.config">
+				<parent>de.0xdefec.rmarketplace</parent>
+				<showorder>100</showorder>
+			</category>
+			<category name="de.0xdefec.rmarketplace.config.entry">
+				<parent>de.0xdefec.rmarketplace.config</parent>
+				<showorder>100</showorder>
+			</category>
+			<category name="de.0xdefec.rmarketplace.gmaps">
+				<parent>de.0xdefec.rmarketplace</parent>
+				<showorder>200</showorder>
+			</category>
+			<category name="de.0xdefec.rmarketplace.attachments">
+				<parent>de.0xdefec.rmarketplace</parent>
+				<showorder>300</showorder>
+			</category>
+			<category name="de.0xdefec.rmarketplace.countries">
+				<parent>de.0xdefec.rmarketplace</parent>
+				<showorder>400</showorder>
+			</category>
+		</categories>
+		<options>
+			<option name="MODULE_RMARKETPLACE">
+				<categoryname>module.content</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="RM_ENABLE_TAGS">
+				<categoryname>de.0xdefec.rmarketplace.config.entry</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<options>module_tagging</options>
+			</option>
+			<option name="RM_INDEX_ENABLE_TAGS">
+				<categoryname>de.0xdefec.rmarketplace.config</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<options>module_tagging</options>
+			</option>
+			<option name="RM_ENABLE_MAPS">
+				<categoryname>de.0xdefec.rmarketplace.config</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="MP_USE_CAPTCHA">
+				<categoryname>security.antispam</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="MP_SPIDER_INDEX">
+				<categoryname>de.0xdefec.rmarketplace.config</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="MP_ENTRY_OLD_TIME">
+				<categoryname>de.0xdefec.rmarketplace.config.entry</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>30</defaultvalue>
+			</option>
+			<option name="MP_ENTRY_INFO_TIME">
+				<categoryname>de.0xdefec.rmarketplace.config.entry</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>20</defaultvalue>
+			</option>
+			<option name="MP_LIFETIME">
+				<categoryname>de.0xdefec.rmarketplace.config.entry</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="MP_SENDERID">
+				<categoryname>de.0xdefec.rmarketplace.config</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="MP_ITEMSPP">
+				<categoryname>de.0xdefec.rmarketplace.config</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>10</defaultvalue>
+			</option>
+			<option name="MP_MIN_CHAR_LENGTH">
+				<categoryname>de.0xdefec.rmarketplace.config.entry</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="MP_MIN_WORD_COUNT">
+				<categoryname>de.0xdefec.rmarketplace.config.entry</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="MP_PRICE_SETTINGS_SEARCH">
+				<categoryname>de.0xdefec.rmarketplace.config.entry</categoryname>
+				<optiontype>radiobuttons</optiontype>
+				<selectoptions><![CDATA[any:de.0xdefec.rmarketplace.pricesettings.any
+anyObligatory:de.0xdefec.rmarketplace.pricesettings.anyObligatory
+number:de.0xdefec.rmarketplace.pricesettings.number
+numberObligatory:de.0xdefec.rmarketplace.pricesettings.numberObligatory]]></selectoptions>
+				<defaultvalue><![CDATA[any]]></defaultvalue>
+			</option>
+			<option name="MP_PRICE_SETTINGS_OFFER">
+				<categoryname>de.0xdefec.rmarketplace.config.entry</categoryname>
+				<optiontype>radiobuttons</optiontype>
+				<selectoptions><![CDATA[any:de.0xdefec.rmarketplace.pricesettings.any
+anyObligatory:de.0xdefec.rmarketplace.pricesettings.anyObligatory
+number:de.0xdefec.rmarketplace.pricesettings.number
+numberObligatory:de.0xdefec.rmarketplace.pricesettings.numberObligatory]]></selectoptions>
+				<defaultvalue><![CDATA[any]]></defaultvalue>
+			</option>
+			<option name="MP_ATTACHMENTS_SEARCH">
+				<categoryname>de.0xdefec.rmarketplace.config.entry</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="MP_ATTACHMENTS_OFFER">
+				<categoryname>de.0xdefec.rmarketplace.config.entry</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="USERMENU_SHOW_MARKETPLACE_ENTRIES">
+				<categoryname>de.0xdefec.rmarketplace.config</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions>USERMENU_SHOW_MARKETPLACE_ENTRIES_ALSO_WHEN_NOT_NEW</enableoptions>
+			</option>
+			<option name="USERMENU_SHOW_MARKETPLACE_ENTRIES_ALSO_WHEN_NOT_NEW">
+				<categoryname>de.0xdefec.rmarketplace.config</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="RM_ATTACHMENT_THUMBNAIL_HEIGHT">
+				<categoryname>de.0xdefec.rmarketplace.attachments</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>160</defaultvalue>
+			</option>
+			<option name="RM_ATTACHMENT_THUMBNAIL_WIDTH">
+				<categoryname>de.0xdefec.rmarketplace.attachments</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>160</defaultvalue>
+			</option>
+			<option name="RM_ATTACHMENT_THUMBNAIL_ADD_SOURCE_INFO">
+				<categoryname>de.0xdefec.rmarketplace.attachments</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="MP_GMAP_HIDE_OLD">
+				<categoryname>de.0xdefec.rmarketplace.gmaps</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="MP_GMAP_KEY">
+				<categoryname>de.0xdefec.rmarketplace.gmaps</categoryname>
+				<optiontype>textarea</optiontype>
+			</option>
+			<option name="MP_GMAP_START_SET">
+				<categoryname>de.0xdefec.rmarketplace.gmaps</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<!-- enableoptions>MP_GMAP_START_LAT,MP_GMAP_START_LNG</enableoptions -->
+			</option>
+			<option name="MP_GMAP_START_LAT">
+				<categoryname>de.0xdefec.rmarketplace.gmaps</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue><![CDATA[50.303376]]></defaultvalue>
+			</option>
+			<option name="MP_GMAP_START_LNG">
+				<categoryname>de.0xdefec.rmarketplace.gmaps</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue><![CDATA[13.249512]]></defaultvalue>
+			</option>
+			<option name="MP_GMAP_START_ZOOM">
+				<categoryname>de.0xdefec.rmarketplace.gmaps</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>7</defaultvalue>
+			</option>
+			<option name="MP_GMAP_TYPE">
+				<categoryname>de.0xdefec.rmarketplace.gmaps</categoryname>
+				<optiontype>radiobuttons</optiontype>
+				<selectoptions><![CDATA[ROADMAP:ROADMAP
+SATELLITE:SATELLITE
+HYBRID:HYBRID
+TERRAIN:TERRAIN]]></selectoptions>
+				<defaultvalue><![CDATA[TERRAIN]]></defaultvalue>
+			</option>
+			<option name="MP_COUNTRIES">
+				<categoryname>de.0xdefec.rmarketplace.countries</categoryname>
+				<optiontype>textarea</optiontype>
+				<defaultvalue><![CDATA[DE;Deutschland
+AT;Österreich
+CH;Schweiz
+BE;Belgien
+LI;Liechtenstein
+NL;Niederlande
+LU;Luxemburg
+#AF;Afghanistan
+#EG;Ägypten
+#AX;Alandinseln
+#AL;Albanien
+#DZ;Algerien
+#AS;Amerikanisch-Samoa
+#AD;Andorra
+#AO;Angola
+#AI;Anguilla
+#AQ;Antarktis
+#AG;Antigua und Barbuda
+#GQ;Äquatorialguinea
+#AR;Argentinien
+#AM;Armenien
+#AW;Aruba
+#AZ;Aserbaidschan
+#ET;Äthiopien
+#AU;Australien
+#BS;Bahamas
+#BH;Bahrain
+#BD;Bangladesch
+#BB;Barbados
+#BZ;Belize
+#BJ;Benin
+#BM;Bermudas
+#BT;Bhutan
+#BO;Bolivien
+#BA;Bosnien und Herzegowina
+#BW;Botsuana
+#BV;Bouvet-Insel
+#BR;Brasilien
+#IO;Britisches Territorium im Indischen Ozean
+#BN;Brunei
+#BG;Bulgarien
+#BF;Burkina Faso
+#BI;Burundi
+#KY;Cayman-Inseln
+#CL;Chile
+#CN;China
+#CC;Cocos-Inseln
+#CK;Cook-Inseln
+#CR;Costa Rica
+#DK;Dänemark
+#CD;Demokratische Republik Kongo
+#DM;Dominica
+#DO;Dominikanische Republik
+#DJ;Dschibuti
+#EC;Ecuador
+#CI;Elfenbeinküste
+#SV;El Salvador
+#ER;Eritrea
+#EE;Estland
+#FK;Falkland-Inseln
+#FO;Färöer-Inseln
+#FJ;Fidschi
+#FI;Finnland
+#FR;Frankreich
+#TF;Französische Südgebiete
+#GF;Französisch-Guayana
+#PF;Französisch-Polynesien
+#GA;Gabun
+#GM;Gambia
+#GE;Georgien
+#GH;Ghana
+#GI;Gibraltar
+#GD;Grenada
+#GR;Griechenland
+#GL;Grönland
+#GB;Großbritannien
+#GP;Guadeloupe
+#GU;Guam
+#GT;Guatemala
+#GG;Guernsey
+#GN;Guinea
+#GW;Guinea-Bissau
+#GY;Guyana
+#HT;Haiti
+#HM;Heard- und McDonald-Inseln
+#HN;Honduras
+#HK;Hongkong
+#IN;Indien
+#ID;Indonesien
+#IQ;Irak
+#IR;Iran
+#IE;Irland
+#IS;Island
+#IM;Isle of Man
+#IL;Israel
+#IT;Italien
+#JM;Jamaika
+#JP;Japan
+#YE;Jemen
+#JE;Jersey
+#JO;Jordanien
+#VG;Jungfern-Inseln
+#VI;Jungfern-Inseln
+#KH;Kambodscha
+#CM;Kamerun
+#CA;Kanada
+#CV;Kap Verde
+#KZ;Kasachstan
+#QA;Katar
+#KE;Kenia
+#KG;Kirgistan
+#KI;Kiribati
+#CO;Kolumbien
+#KM;Komoren
+#CG;Kongo
+#HR;Kroatien
+#CU;Kuba
+#KW;Kuwait
+#LA;Laos
+#LS;Lesotho
+#LV;Lettland
+#LB;Libanon
+#LR;Liberia
+#LY;Libyen
+#LT;Litauen
+#MO;Macao
+#MG;Madagaskar
+#MW;Malawi
+#MY;Malaysien
+#MV;Malediven
+#ML;Mali
+#MT;Malta
+#MA;Marokko
+#MH;Marshall-Inseln
+#MQ;Martinique
+#MR;Mauretanien
+#MU;Mauritius
+#YT;Mayotte
+#MK;Mazedonien
+#MX;Mexiko
+#FM;Mikronesien
+#MC;Monaco
+#MN;Mongolei
+#ME;Montenegro
+#MS;Montserrat
+#MZ;Mosambik
+#MM;Myanmar
+#NA;Namibia
+#NR;Nauru
+#NP;Nepal
+#NC;Neukaledonien
+#NZ;Neuseeland
+#AN;Niederländische Antillen
+#NE;Niger
+#NG;Nigeria
+#NI;Nikaragua
+#NU;Niue
+#KP;Nordkorea
+#MP;Nördliche Marianen
+#NF;Norfolk-Insel
+#NO;Norwegen
+#OM;Oman
+#TL;Osttimor
+#PK;Pakistan
+#PS;Palästinensische Gebiete
+#PW;Palau
+#PA;Panama
+#PG;Papua-Neuguinea
+#PY;Paraguay
+#PE;Peru
+#PH;Philippinen
+#PN;Pitcairn
+#PL;Polen
+#PT;Portugal
+#PR;Puerto Rico
+#MD;Republik Moldau
+#RE;Réunion
+#RW;Ruanda
+#RO;Rumänien
+#RU;Russland
+#KN;Saint Kitts und Nevis
+#ZM;Sambia
+#WS;Samoa
+#SH;Sankt Helena
+#SM;San Marino
+#ST;Sao Tomé und Principe
+#SA;Saudi-Arabien
+#SE;Schweden
+#CH;Schweiz
+#SN;Senegal
+#RS;Serbien
+#CS;Serbien und Montenegro
+#SC;Seychellen
+#SL;Sierra Leone
+#ZW;Simbabwe
+#SG;Singapur
+#SK;Slowakei
+#SI;Slowenien
+#SB;Solomon-Inseln
+#SO;Somalia
+#ES;Spanien
+#LK;Sri Lanka
+#LC;St. Lucia
+#PM;St. Pierre und Miquelon
+#VC;St. Vincent und die Grenadinen
+#ZA;Südafrika
+#SD;Sudan
+#GS;Süd-Georgien und Südliche Sandwich-Inseln
+#KR;Südkorea
+#SR;Suriname
+#SJ;Svalbard und Jan-Mayen
+#SZ;Swasiland
+#SY;Syrien
+#TJ;Tadschikistan
+#TW;Taiwan
+#TZ;Tansania
+#TH;Thailand
+#TG;Togo
+#TK;Tokelau
+#TO;Tonga
+#TT;Trinidad und Tobago
+#TD;Tschad
+#CZ;Tschechien
+#TN;Tunesien
+#TR;Türkei
+#TM;Turkmenistan
+#TC;Turks- und Caicos-Inseln
+#TV;Tuwalu
+#UG;Uganda
+#UA;Ukraine
+#HU;Ungarn
+#UY;Uruguay
+#UM;USA kleinere ausgelagerte Inseln
+#US;USA
+#UZ;Usbekistan
+#VU;Vanuatu
+#VA;Vatikanstadt
+#VE;Venezuela
+#AE;Vereinigte Arabische Emirate
+#VN;Vietnam
+#WF;Wallis und Futuna
+#CX;Weihnachtsinsel
+#BY;Weißrussland
+#EH;West-Sahara
+#CF;Zentralafrikanische Republik
+#CY;Zypern]]></defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

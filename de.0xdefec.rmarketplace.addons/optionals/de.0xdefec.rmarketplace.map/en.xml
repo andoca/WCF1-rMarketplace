@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="en">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.gmaps.large"><![CDATA[Large map]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.gmaps.large.description"><![CDATA[Settings for the large overview map]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_HIDE_OLD"><![CDATA[Hide old entries]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_HIDE_OLD.description"><![CDATA[Don't display old Entries on the map]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_ENABLED"><![CDATA[Display the large map]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_ENABLED.description"><![CDATA[Displays a link to the large map (100% width)]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_START_SET"><![CDATA[Set map starting location]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_START_SET.description"><![CDATA[You can force a location to be used on the map per default. If not avtivated, the users location (based on his IP) will be used.]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_LAT"><![CDATA[Start location latitude]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_LAT.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_LNG"><![CDATA[Start location longitude]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_LNG.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_ZOOM"><![CDATA[Zoomlevel]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_ZOOM.description"><![CDATA[Zoomlevel (1-20) to start with on the map.]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_TYPE"><![CDATA[Map type]]></item>
+		<item name="wcf.acp.option.MP_GMAP_LARGE_TYPE.description"><![CDATA[Type of map to be used]]></item>
+	</category>
+	<category name="de.0xdefec.rmarketplace.map">
+		<item name="de.0xdefec.rmarketplace.map.show"><![CDATA[Large map]]></item>
+		<item name="de.0xdefec.rmarketplace.map.title"><![CDATA[Large map]]></item>
+		<item name="de.0xdefec.rmarketplace.map.description"><![CDATA[You can browse all marketplace entries on this map]]></item>
+		<item name="de.0xdefec.rmarketplace.map.localSearch.title"><![CDATA[Radial search]]></item>
+		<item name="de.0xdefec.rmarketplace.map.localSearch.welcome"><![CDATA[Following entries are in a radius of {#$radius} km to your given address &raquo;{$address}&laquo;.]]></item>
+		<item name="de.0xdefec.rmarketplace.map.localSearch.address"><![CDATA[z.b. 50676 Köln, Deutschland]]></item>
+	</category>
+	<category name="wcf.usersOnline">
+		<item name="wcf.usersOnline.location.rMarketplaceMap"><![CDATA[Marketplace large map]]></item>
+	</category>
+</language>

@@ -1,0 +1,132 @@
+/* new styles */
+.rmarketplace .layout-2 .second {
+	width: 310px !important;
+}
+
+.mpBoxCategories .itemList,.mpBoxStats .itemList,.mpBoxMeta .itemList {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.mpSidebar .border>.itemList {
+	margin: 0 1px 0 0;
+}
+
+.rmarketplace #mpMapDiv {
+	width: 100%;
+	height: 300px;
+}
+
+.rmarketplace .messageCount {
+	float: right;
+}
+
+.rmarketplace .messageCount .messageNumber {
+	text-decoration: none;
+	display: block;
+	margin-top: 7px;
+	padding: 0 4px;
+}
+
+.rmarketplace .messageSidebar {
+	width: 100% !important;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.rmarketplace .layout-2 {
+	border-collapse: inherit !important;
+}
+
+.rmarketplace .signature {
+	border-left-width: 0;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	margin: 7px 0 0 0;
+	padding: 7px 0 0 0;
+	overflow: hidden;
+	position: relative;
+}
+
+.rmarketplace .editNote,.rmarketplace .deleteNote {
+	border-left-width: 0;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	margin: 7px 0 0 0;
+	padding: 7px 0 0 0;
+	position: relative;
+}
+
+.rmarketplace #mpEntryMap {
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.mpBoxExternal p {
+	padding: 5px;
+}
+/* old styles*/
+#rMwrapper {
+	float: left;
+	width: 100%
+}
+
+#mpLeft {
+	width: 300px;
+	float: left;
+	margin-left: -100%;
+	margin-bottom: 1em;
+}
+
+#mpRight {
+	margin-left: 320px;
+	margin-bottom: 1em;
+}
+
+#mpMap {
+	width: 296px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.mpSearch,.mpOffer {
+	margin-bottom: 1em;
+	padding: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.mpSearch .light a,.mpOffer .light a {
+	color: rgb(133, 135, 137);
+}
+
+.mpSearch h3,.mpOffer h3 {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.mpSearch {
+	margin-left: 10%;
+}
+
+.mpOffer {
+	margin-right: 10%;
+}
+
+#mpStats,.mpCategory {
+	padding: 1em;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#mpStats img {
+	vertical-align: middle;
+}
+
+.typeSelected {
+	font-weight: bold;
+}

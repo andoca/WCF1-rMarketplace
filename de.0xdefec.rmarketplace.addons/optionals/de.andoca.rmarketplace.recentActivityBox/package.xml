@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.andoca.rmarketplace.recentActivityBox" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Recent Activity Box rMarketplace]]></packagename>
+		<packageurl><![CDATA[http://www.andoca.de]]></packageurl>
+		<version>1.0.0</version>
+		<isunique>1</isunique>
+		<date>2012-01-23</date>
+		<plugin>com.woltlab.wbb</plugin>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Andoca Haustier-WG UG (haftungsbeschränkt)</author>
+		<authorurl>http://www.andoca.de</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.0.0 Beta 1">com.woltlab.wbb.recentActivityBox</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<eventlistener>eventlistener.xml</eventlistener>
+	</instructions>
+	
+	<instructions type="update" fromversion="*">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<eventlistener>eventlistener.xml</eventlistener>
+	</instructions>
+</package>

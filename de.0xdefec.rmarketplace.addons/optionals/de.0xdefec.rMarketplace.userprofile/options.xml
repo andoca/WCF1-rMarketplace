@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTD/options.dtd">
+<data>
+	<import>
+		<options>
+			<option name="PROFILE_SHOW_MARKETPLACE_ENTRIES">
+				<categoryname>de.0xdefec.rmarketplace.config</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="SIDEBAR_SHOW_MARKETPLACE_ENTRIES">
+				<categoryname>de.0xdefec.rmarketplace.config</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de-informal">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.feed"><![CDATA[Feeds]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rmarketplace.feed.description"><![CDATA[Einstellungen für die RSS und ATOM Feeds]]></item>
+		<item name="wcf.acp.option.MP_FEED_ACTIVE"><![CDATA[Feeds aktivieren]]></item>
+		<item name="wcf.acp.option.MP_FEED_ACTIVE.description"><![CDATA[Aktiviert die Feeds]]></item>
+		<item name="wcf.acp.option.MP_FEED_ITEMS"><![CDATA[Einträge]]></item>
+		<item name="wcf.acp.option.MP_FEED_ITEMS.description"><![CDATA[Anzahl an Einträgen die in den Feeds maximal angezeigt werden sollen]]></item>
+		</category>
+	<category name="de.0xdefec.rmarketplace.feed">
+		<item name="de.0xdefec.rmarketplace.feed"><![CDATA[Marktplatzeinträge abonnieren]]></item>
+		<item name="de.0xdefec.rmarketplace.feed.title"><![CDATA[{PAGE_TITLE} Marktplatz {if $category !== null} - {$category->catName}{/if}{if $type !== null} - {if $type == 'search'}{lang}de.0xdefec.rmarketplace.search{/lang}{else}{lang}de.0xdefec.rmarketplace.offer{/lang}{/if}{/if}]]></item>
+		<item name="de.0xdefec.rmarketplace.feed.description"><![CDATA[Einträge des Marktplatzes{if $category !== null} aus der Kategorie "{$category->catName}"{/if}{if $type !== null} - {if $type == 'search'}{lang}de.0xdefec.rmarketplace.search{/lang}{else}{lang}de.0xdefec.rmarketplace.offer{/lang}{/if}{/if}.]]></item>
+	</category>
+</language>

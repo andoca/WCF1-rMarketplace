@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "DTD/package.dtd">
+<data>
+	<import>
+		<portalboxitem name="rmarketplacebox">
+			<className>RMarketplaceBox</className>
+			<cacheBuilderClass>CacheBuilderPortalRMarketplace</cacheBuilderClass>
+			<boxType>1</boxType>
+			<useCache>1</useCache>
+			<cacheType>default</cacheType>
+			<sortOrder>4</sortOrder>
+			<boxActivation>1</boxActivation>
+			<permissions>user.rmarketplace.canList</permissions>
+		</portalboxitem>
+		<portalboxitem name="rmarketplacesidebox">
+			<className>RMarketplaceSideBox</className>
+			<cacheBuilderClass>CacheBuilderPortalRMarketplaceSide</cacheBuilderClass>
+			<boxType>2</boxType>
+			<useCache>1</useCache>
+			<cacheType>default</cacheType>
+			<boxActivation>0</boxActivation>
+			<permissions>user.rmarketplace.canList</permissions>
+		</portalboxitem>
+	</import>
+</data>

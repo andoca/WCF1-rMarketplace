@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/pageLocations.dtd">
+<data>	
+	<import>
+		<pagelocation name="wcf.usersOnline.location.rMarketplace">
+			<pattern><![CDATA[index\.php\?page=RMarketplace]]></pattern>
+		</pagelocation>
+		<pagelocation name="wcf.usersOnline.location.rMarketplace.add">
+			<pattern><![CDATA[index\.php\?form=RMarketplaceAdd]]></pattern>
+		</pagelocation>
+		<pagelocation name="wcf.usersOnline.location.rMarketplace.edit">
+			<pattern><![CDATA[index\.php\?form=RMarketplaceEdit]]></pattern>
+		</pagelocation>
+		<pagelocation name="wcf.usersOnline.location.rMarketplace.reply">
+			<pattern><![CDATA[index\.php\?form=RMarketplace(PMNew|Mail)]]></pattern>
+		</pagelocation>
+		<pagelocation name="wcf.usersOnline.location.rMarketplace.category">
+			<pattern><![CDATA[index\.php\?page=RMarketplace&.*cat=(\d+)]]></pattern>
+			<classpath>lib/data/page/location/RMarketplaceCategoryLocation.class.php</classpath>
+		</pagelocation>
+		<pagelocation name="wcf.usersOnline.location.rMarketplace.entry">
+			<pattern><![CDATA[index\.php\?page=RMarketplaceEntry&.*entryID=(\d+)]]></pattern>
+			<classpath>lib/data/page/location/RMarketplaceEntryLocation.class.php</classpath>
+		</pagelocation>
+	</import>
+</data>

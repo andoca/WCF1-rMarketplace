@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTD/options.dtd">
+<data>
+	<import>
+		<categories>
+			<category name="de.0xdefec.rmarketplace.gmaps.large">
+				<parent>de.0xdefec.rmarketplace.gmaps</parent>
+			</category>
+		</categories>
+		<options>
+			<option name="MP_GMAP_LARGE_ENABLED">
+				<categoryname>de.0xdefec.rmarketplace.gmaps.large</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<enableoptions>MP_GMAP_HIDE_OLD,MP_GMAP_LARGE_START_SET,MP_GMAP_LARGE_TYPE,MP_GMAP_LARGE_ZOOM</enableoptions>
+			</option>
+			<option name="MP_GMAP_LARGE_HIDE_OLD">
+				<categoryname>de.0xdefec.rmarketplace.gmaps.large</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="MP_GMAP_LARGE_START_SET">
+				<categoryname>de.0xdefec.rmarketplace.gmaps.large</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<!-- enableoptions>MP_GMAP_LARGE_LAT,MP_GMAP_LARGE_LNG</enableoptions -->
+			</option>
+			<option name="MP_GMAP_LARGE_LAT">
+				<categoryname>de.0xdefec.rmarketplace.gmaps.large</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue><![CDATA[50.303376]]></defaultvalue>
+			</option>
+			<option name="MP_GMAP_LARGE_LNG">
+				<categoryname>de.0xdefec.rmarketplace.gmaps.large</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue><![CDATA[13.249512]]></defaultvalue>
+			</option>
+			<option name="MP_GMAP_LARGE_ZOOM">
+				<categoryname>de.0xdefec.rmarketplace.gmaps.large</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>6</defaultvalue>
+			</option>
+			<option name="MP_GMAP_LARGE_TYPE">
+				<categoryname>de.0xdefec.rmarketplace.gmaps.large</categoryname>
+				<optiontype>radiobuttons</optiontype>
+				<selectoptions><![CDATA[ROADMAP:ROADMAP
+SATELLITE:SATELLITE
+HYBRID:HYBRID
+TERRAIN:TERRAIN]]></selectoptions>
+				<defaultvalue><![CDATA[TERRAIN]]></defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

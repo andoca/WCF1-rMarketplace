@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/options.dtd">
+<data>
+	<import>
+		<categories>
+			<category name="mod.rmarketplace">
+				<parent>mod</parent>
+				<options>module_rmarketplace</options>
+			</category>
+			<category name="user.rmarketplace">
+				<parent>user</parent>
+				<options>module_rmarketplace</options>
+			</category>
+			<category name="user.rmarketplace.general">
+				<parent>user.rmarketplace</parent>
+			</category>
+			<category name="user.rmarketplace.attachments">
+				<parent>user.rmarketplace</parent>
+			</category>
+			<category name="admin.rmarketplace">
+				<parent>admin</parent>
+				<options>module_rmarketplace</options>
+			</category>
+		</categories>
+		<options>
+			<option name="admin.rmarketplace.canAdministrate">
+				<categoryname>admin.rmarketplace</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="mod.rmarketplace.canModerate">
+				<categoryname>mod.rmarketplace</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="user.rmarketplace.canList">
+				<categoryname>user.rmarketplace.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions>user.rmarketplace.canView</enableoptions>
+			</option>
+			<option name="user.rmarketplace.canView">
+				<categoryname>user.rmarketplace.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<hidden>1</hidden>
+				<enableoptions>user.rmarketplace.canComment</enableoptions>
+			</option>
+			<option name="user.rmarketplace.canComment">
+				<categoryname>user.rmarketplace.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<hidden>1</hidden>
+				<enableoptions>user.rmarketplace.canEditOwnComment,user.rmarketplace.canDeleteOwnComment</enableoptions>
+			</option>
+			<option name="user.rmarketplace.maxCommentLength">
+				<categoryname>user.rmarketplace.general</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>1000</defaultvalue>
+				<hidden>1</hidden>
+			</option>
+			<option name="user.rmarketplace.canEditOwnComment">
+				<categoryname>user.rmarketplace.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<hidden>1</hidden>
+			</option>
+			<option name="user.rmarketplace.canDeleteOwnComment">
+				<categoryname>user.rmarketplace.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<hidden>1</hidden>
+			</option>
+			<option name="user.rmarketplace.canWrite">
+				<categoryname>user.rmarketplace.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<hidden>1</hidden>
+				<enableoptions>user.rmarketplace.maxMessageLength,user.rmarketplace.canEditOwn,user.rmarketplace.canWriteWithoutModeration,user.rmarketplace.canDeleteOwn,user.rmarketplace.canDeactivateOwn,user.rmarketplace.maxAttachmentSize,user.rmarketplace.maxAttachmentCount,user.rmarketplace.allowedAttachmentExtensions,user.rmarketplace.maxPushCount</enableoptions>
+			</option>
+			<option name="user.rmarketplace.maxPushCount">
+				<categoryname>user.rmarketplace.general</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<hidden>1</hidden>
+			</option>
+			<option name="user.rmarketplace.maxMessageLength">
+				<categoryname>user.rmarketplace.general</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>10000</defaultvalue>
+				<hidden>1</hidden>	
+			</option>
+			<option name="user.rmarketplace.canWriteWithoutModeration">
+				<categoryname>user.rmarketplace.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<hidden>1</hidden>	
+			</option>
+			<option name="user.rmarketplace.canDeactivateOwn">
+				<categoryname>user.rmarketplace.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<hidden>1</hidden>
+			</option>
+			<option name="user.rmarketplace.canEditOwn">
+				<categoryname>user.rmarketplace.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<hidden>1</hidden>	
+				<enableoptions>user.rmarketplace.showEditMessage</enableoptions>
+			</option>
+			<option name="user.rmarketplace.dontShowEditMessage">
+				<categoryname>user.rmarketplace.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<hidden>1</hidden>
+			</option>
+			<option name="user.rmarketplace.canDeleteOwn">
+				<categoryname>user.rmarketplace.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<hidden>1</hidden>
+			</option>
+			<option name="user.rmarketplace.maxAttachmentSize">
+				<categoryname>user.rmarketplace.attachments</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>80000</defaultvalue>
+				<hidden>1</hidden>
+			</option>
+			<option name="user.rmarketplace.maxAttachmentCount">
+				<categoryname>user.rmarketplace.attachments</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>5</defaultvalue>
+				<hidden>1</hidden>
+			</option>
+			<option name="user.rmarketplace.allowedAttachmentExtensions">
+				<categoryname>user.rmarketplace.attachments</categoryname>
+				<optiontype>textarea</optiontype>
+				<defaultvalue><![CDATA[gif
+jpg
+jpeg
+png
+bmp
+zip
+txt
+pdf]]></defaultvalue>
+				<hidden>1</hidden>
+			</option>
+		</options>
+	</import>
+	<delete>
+		<option name="user.rmarketplace.showEditMessage"></option>
+	</delete>
+</data>

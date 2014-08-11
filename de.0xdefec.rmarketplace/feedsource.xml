@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/feedsource.dtd">
+<data>
+	<import>
+		<feedsource name="0xdefec-news">
+			<url><![CDATA[http://www.andoca.de/forum/index.php?page=ThreadsFeed&format=rss2&boardID=21&package=rmarketplace]]></url>
+			<cycle>86400</cycle>
+		</feedsource>
+	</import>
+</data>
